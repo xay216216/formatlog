@@ -1,16 +1,11 @@
 package models
 
 import (
-	"github.com/astaxie/beego/orm"
-	_ "github.com/go-sql-driver/mysql"
+	"github.com/astaxie/beego"
 )
 
-func init() {
-	orm.RegisterDriver("mysql", orm.DRMySQL)
-
-	orm.RegisterDataBase("default", "mysql", "root:root@/orm_test?charset=utf8")
+//返回带前缀的表名
+func TableName(str string) string {
+	return beego.AppConfig.String("dbprefix") + str
 }
 
-func main() {
-
-}

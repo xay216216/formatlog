@@ -5,7 +5,7 @@ import (
 	_ "encoding/json"
 	_ "fmt"
 	"formatlog/conf"
-	//"formatlog/models"
+	"formatlog/models"
 	"github.com/astaxie/beego/logs"
 	"github.com/tidwall/gjson"
 	"io"
@@ -49,26 +49,28 @@ var (
 	now             = time.Now()
 	formatNow       = now.AddDate(0, 0, -1)
 	dateUrl         = formatNow.Format("20060102")
-	hdfsLogWriteUrl = "logs/" + dateUrl + "/formatlog.log"
+
 	logReadUrl      string
 	logWriteUrl     string
 )
 
 func init() {
-	log := logs.NewLogger()
-	log.SetLogger("file", `{"filename":"logs/formatlog.log","daily"  : true}`)
-	//log.SetLogger("file", `{"filename":hdfsLogWriteUrl}`)
-	/*jsonConfig := `{
-        "filename" : "logs/formatlog.log", // 文件名
-        "maxlines" : 1000,       // 最大行
-        "maxsize"  : 10240,       // 最大Size
-		"daily"  : true       // 是否按照每天 logrotate，默认是 true
-    }`*/
+	//hdfsLogWriteUrl := "logs/" + dateUrl + "/formatlog.log"
+	//log := logs.NewLogger()
+	jsonConfig := `{
+        "filename" : "logs/formatlog.log",
+        "maxlines" : 0,     
+		"level"	:	7,         
+        "maxsize"  : 0,     
+		"daily"  : true,      
+		"maxdays "  : 10      
+    }`
 	//log.SetLogger("file", jsonConfig) // 设置日志记录方式：本地文件记录
-	log.SetLevel(logs.LevelDebug)     // 设置日志写入缓冲区的等级
-	log.EnableFuncCallDepth(true)     // 输出log时能显示输出文件名和行号（非必须）
-	//log.SetLogger(logs.AdapterConsole,jsonConfig)
-	//log.SetLogger(logs.AdapterConsole,jsonConfig)
+	//log.SetLogger("file", `{"filename":"logs/formatlog.log","level":7,"maxlines":1000,"maxsize":10240,"daily":true,"maxdays":10}`)
+	log.SetLogger(logs.AdapterConsole, jsonConfig)
+	log.SetLogger(logs.AdapterFile, jsonConfig)
+	log.SetLevel(logs.LevelDebug) // 设置日志写入缓冲区的等级
+	log.EnableFuncCallDepth(true) // 输出log时能显示输出文件名和行号（非必须）
 	//log.Flush() // 将日志从缓冲区读出，写入到文件
 	//log.Close()
 
@@ -182,6 +184,8 @@ Loop:
 				//写入map
 				mapString := m1 + "_" + tm + "_" + nm
 				logDataOne[mapString] = JsonFormatOne{ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v}
+				//写入数据库
+				models.InsertJsonOne(dateUrl,ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
 			}
 			//WriteLog(countFileName, countContent)
 			if err != nil {

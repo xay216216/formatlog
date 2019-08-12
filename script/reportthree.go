@@ -7,6 +7,9 @@ import (
 )
 
 var (
+	url string
+)
+var (
 	reportDataThree      map[string]int
 	GoodsScanOne         map[string]string
 	GoodsScanTwo         map[string]string
@@ -40,13 +43,16 @@ type ReportThree struct {
 	DetailUser        int
 }
 
+func init() {
+	formatNow = now.AddDate(0, 0, -2)
+	dateUrl = formatNow.Format("20060102")
+	url = logReadUrl + dateUrl
+}
+
 // 执行脚本
 func ReportThreeTask() {
 	log.Info("开始执行脚本---CountLog")
 	//获取数据
-	formatNow     = now.AddDate(0, 0, -3)
-	dateUrl       = formatNow.Format("20060102")
-	url := logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	ReadCountLog(url)
 	reportThreeCount()
@@ -70,7 +76,7 @@ func reportThreeCount() {
 	for _, value := range logDataOne {
 		//app
 		if value.NM == "USER_START_APK_EVERYTIME" {
-			reportDataThree["AppQiDong"] = reportDataThree["AppQiDong"] + 1  //当日启动打开APP次数
+			reportDataThree["AppQiDong"] = reportDataThree["AppQiDong"] + 1 //当日启动打开APP次数
 		}
 		//商品浏览总坑位数
 		if value.NM == "ZHUANQU_WHEN_SCAN_POINT" {
@@ -96,7 +102,7 @@ func reportThreeCount() {
 					if len(val) != 0 {
 						_, ok := GoodsScanOne[value.PID+"_"+val]
 						if !ok {
-							reportDataThree["GoodsScan"] = reportDataThree["GoodsScan"] + 1  //商品浏览总坑位数
+							reportDataThree["GoodsScan"] = reportDataThree["GoodsScan"] + 1 //商品浏览总坑位数
 						}
 						GoodsScanOne[value.PID+"_"+val] = value.PID + "_" + val
 					}
@@ -106,10 +112,10 @@ func reportThreeCount() {
 		//除搜索粘贴板之外的商品点击数--点击访问商品详情页UV
 		if value.NM == "EVENT_GOODS_DETAIL_PV" {
 			if value.FROM == "category" || value.FROM == "zq" {
-				reportDataThree["GoodsClick"] = reportDataThree["GoodsClick"] + 1  //除搜索粘贴板之外的商品点击数
+				reportDataThree["GoodsClick"] = reportDataThree["GoodsClick"] + 1 //除搜索粘贴板之外的商品点击数
 				_, ok := GoodsDetail[value.M1]
 				if !ok {
-					reportDataThree["GoodsDetail"] = reportDataThree["GoodsDetail"] + 1  //点击访问商品详情页UV
+					reportDataThree["GoodsDetail"] = reportDataThree["GoodsDetail"] + 1 //点击访问商品详情页UV
 				}
 				GoodsDetail[value.M1] = value.NM + "_" + value.M1
 			}
@@ -118,10 +124,10 @@ func reportThreeCount() {
 		//热词---热词使用用户数
 		if value.NM == "EVENT_SEARCH_PV" {
 			if value.FROM == "hot_search" || value.FROM == "3" || value.FROM == "category" || value.FROM == "6" {
-				reportDataThree["HotCode"] = reportDataThree["HotCode"] + 1  //热词使用量
+				reportDataThree["HotCode"] = reportDataThree["HotCode"] + 1 //热词使用量
 				_, ok := HotUse[value.M1]
 				if !ok {
-					reportDataThree["HotUse"] = reportDataThree["HotUse"] + 1  //热词使用用户数
+					reportDataThree["HotUse"] = reportDataThree["HotUse"] + 1 //热词使用用户数
 				}
 				HotUse[value.M1] = value.NM + "_" + value.M1
 			}
@@ -129,10 +135,10 @@ func reportThreeCount() {
 		//关键词---关键词使用用户数
 		if value.NM == "EVENT_SEARCH_PV" {
 			if value.FROM == "search_input" || value.FROM == "7" {
-				reportDataThree["KeyCode"] = reportDataThree["KeyCode"] + 1  //关键词使用量
+				reportDataThree["KeyCode"] = reportDataThree["KeyCode"] + 1 //关键词使用量
 				_, ok := KeyUse[value.M1]
 				if !ok {
-					reportDataThree["KeyUse"] = reportDataThree["KeyUse"] + 1  //关键词使用用户数
+					reportDataThree["KeyUse"] = reportDataThree["KeyUse"] + 1 //关键词使用用户数
 				}
 				KeyUse[value.M1] = value.NM + "_" + value.M1
 			}
@@ -142,10 +148,10 @@ func reportThreeCount() {
 			if value.FROM == "searchResult" {
 				_, ok := SearchResult[value.PID]
 				if ok {
-					reportDataThree["SearchResult"] = reportDataThree["SearchResult"] + 1  //搜索结果点击量
+					reportDataThree["SearchResult"] = reportDataThree["SearchResult"] + 1 //搜索结果点击量
 					_, okTwo := SearchResultClick[value.M1]
 					if !okTwo {
-						reportDataThree["SearchResultClick"] = reportDataThree["SearchResultClick"] + 1  //搜索结果点击用户数
+						reportDataThree["SearchResultClick"] = reportDataThree["SearchResultClick"] + 1 //搜索结果点击用户数
 					}
 					SearchResultClick[value.M1] = value.NM + "_" + value.M1
 				}
@@ -155,10 +161,10 @@ func reportThreeCount() {
 		if value.NM == "EVENT_JUMP_GET_COUPON" {
 			_, ok := SearchResultTwo[value.PID]
 			if ok {
-				reportDataThree["SearchResult"] = reportDataThree["SearchResult"] + 1  //搜索结果点击量
+				reportDataThree["SearchResult"] = reportDataThree["SearchResult"] + 1 //搜索结果点击量
 				_, okTwo := SearchResultClickTwo[value.M1]
 				if !okTwo {
-					reportDataThree["SearchResultClick"] = reportDataThree["SearchResultClick"] + 1  //搜索结果点击用户数
+					reportDataThree["SearchResultClick"] = reportDataThree["SearchResultClick"] + 1 //搜索结果点击用户数
 				}
 				SearchResultClickTwo[value.M1] = value.NM + "_" + value.M1
 			}
@@ -167,7 +173,7 @@ func reportThreeCount() {
 		//电商点击量
 		if value.NM == "EVENT_JUMP_GET_COUPON" {
 			if value.CLICKTYPE == "1" || value.CLICKTYPE == "2" {
-				reportDataThree["ShopClick"] = reportDataThree["ShopClick"] + 1  //电商点击量
+				reportDataThree["ShopClick"] = reportDataThree["ShopClick"] + 1 //电商点击量
 				_, ok := ShopClickUser[value.M1]
 				if !ok {
 					reportDataThree["ShopClickUser"] = reportDataThree["ShopClickUser"] + 1 //电商点击用户数
