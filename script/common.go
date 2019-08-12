@@ -5,7 +5,6 @@ import (
 	_ "encoding/json"
 	_ "fmt"
 	"formatlog/conf"
-	"formatlog/models"
 	"github.com/astaxie/beego/logs"
 	"github.com/tidwall/gjson"
 	"io"
@@ -184,8 +183,7 @@ Loop:
 				//写入map
 				mapString := m1 + "_" + tm + "_" + nm
 				logDataOne[mapString] = JsonFormatOne{ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v}
-				//写入数据库
-				models.InsertJsonOne(dateUrl,ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
+
 			}
 			//WriteLog(countFileName, countContent)
 			if err != nil {

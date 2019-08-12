@@ -42,6 +42,7 @@ func dotask() {
 	//script.ReportOnetask()
 	//script.ReportTwoTask()
 	script.ReportThreeTask()
+	//script.InsertJsonDataOne()
 
 	/*taskTime := myConfig.Read("task", "taskTime")
 	setLogTask := toolbox.NewTask("setLog", taskTime, newsBot)
@@ -61,5 +62,7 @@ func newsBot() error {
 	script.ReportTwoTask()
 	script.ReportThreeTask()
 	script.GetUidM1()
+	script.InsertJsonDataOne()
+
 	return nil
 }

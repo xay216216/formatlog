@@ -44,14 +44,14 @@ type ReportThree struct {
 }
 
 func init() {
-	formatNow = now.AddDate(0, 0, -2)
+	formatNow = now.AddDate(0, 0, -3)
 	dateUrl = formatNow.Format("20060102")
 	url = logReadUrl + dateUrl
 }
 
 // 执行脚本
 func ReportThreeTask() {
-	log.Info("开始执行脚本---CountLog")
+	log.Info("开始执行脚本---ReportThreeTask")
 	//获取数据
 	log.Info("logUrl:", url)
 	ReadCountLog(url)
