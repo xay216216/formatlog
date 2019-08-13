@@ -87,9 +87,11 @@ Loop:
 			//log.Info("file size=", size)
 
 			buf := bufio.NewReader(logFile)
+			var lineNum = 0
 			for {
 				line, err := buf.ReadString('\n')
 				line = strings.TrimSpace(line)
+				lineNum++
 				//log.Info(line)
 				if len(line) != 0 {
 					m1 := gjson.Get(line, "m1").String()
@@ -101,7 +103,7 @@ Loop:
 							log.Info(aa)
 							//把存在uid的写进map Nmpid中
 							sex := uidArray[uid]
-							mapString := m1 + uid
+							mapString := m1 + uid + "_" + strconv.Itoa(lineNum)
 							logData[mapString] = M1uid{m1, uid, sex}
 							//WriteLog(countLogFileName, countContent)
 						}
@@ -112,7 +114,7 @@ Loop:
 							log.Info(aa)
 							//把存在uid的写进map Nmpid中
 							sexTwo := uidArray[uidTwo]
-							mapString := m1 + uidTwo
+							mapString := m1 + uidTwo + "_" + strconv.Itoa(lineNum)
 							logData[mapString] = M1uid{m1, uidTwo, sexTwo}
 							//WriteLog(countLogFileName, countContent)
 						}

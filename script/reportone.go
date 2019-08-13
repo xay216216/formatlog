@@ -58,7 +58,6 @@ var (
 func ReportOneTask() {
 	log.Info("开始执行脚本---CountLog")
 	//获取数据
-	//获取数据
 	formatNow     = now.AddDate(0, 0, -1)
 	dateUrl       = formatNow.Format("20060102")
 	url := logReadUrl + dateUrl

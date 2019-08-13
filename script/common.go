@@ -10,6 +10,7 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -149,9 +150,11 @@ Loop:
 		//log.Info("file size=", size)
 
 		buf := bufio.NewReader(logFile)
+		var lineNum = 0
 		for {
 			line, err := buf.ReadString('\n')
 			line = strings.TrimSpace(line)
+			lineNum++
 			//log.Info(line)
 			if len(line) != 0 {
 				ba := gjson.Get(line, "ba").String()
@@ -181,7 +184,8 @@ Loop:
 				uid := gjson.Get(line, "seg.custom.uid").String()
 
 				//写入map
-				mapString := m1 + "_" + tm + "_" + nm
+				//mapString := m1 + "_" + tm + "_" + nm
+				mapString := m1 + "_" + tm + "_" + nm + "_" + strconv.Itoa(lineNum)
 				logDataOne[mapString] = JsonFormatOne{ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v}
 
 			}

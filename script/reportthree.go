@@ -43,16 +43,13 @@ type ReportThree struct {
 	DetailUser        int
 }
 
-func init() {
-	formatNow = now.AddDate(0, 0, -3)
-	dateUrl = formatNow.Format("20060102")
-	url = logReadUrl + dateUrl
-}
-
 // 执行脚本
 func ReportThreeTask() {
 	log.Info("开始执行脚本---ReportThreeTask")
 	//获取数据
+	formatNow = now.AddDate(0, 0, -1)
+	dateUrl = formatNow.Format("20060102")
+	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	ReadCountLog(url)
 	reportThreeCount()
@@ -73,7 +70,7 @@ func reportThreeCount() {
 	ShopClickUser = make(map[string]string)
 	DetailOrder = make(map[string]string)
 	DetailUser = make(map[string]string)
-	for _, value := range logDataOne {
+	for key, value := range logDataOne {
 		//app
 		if value.NM == "USER_START_APK_EVERYTIME" {
 			reportDataThree["AppQiDong"] = reportDataThree["AppQiDong"] + 1 //当日启动打开APP次数
@@ -197,7 +194,7 @@ func reportThreeCount() {
 			}
 			DetailUser[value.M1] = value.PID + "_" + value.M1
 		}
-
+		_ = key
 	}
 }
 

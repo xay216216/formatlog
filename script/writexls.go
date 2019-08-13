@@ -20,7 +20,9 @@ var (
 func WriteXls() {
 	log.Info("开始执行脚本---WriteXls")
 	//获取数据
-	url := logReadUrl + dateUrl
+	formatNow = now.AddDate(0, 0, -1)
+	dateUrl = formatNow.Format("20060102")
+	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	readLog(url)
 }
