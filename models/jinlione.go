@@ -7,15 +7,9 @@ import (
 	"time"
 )
 
-type any = interface{}
 
-type BaseModel struct {
-	Id        uint      `json:"id"`
-	CreatedAt time.Time `json:"script_time"`
-	UpdatedAt time.Time `json:"updated_at"`
-}
 
-type JsonDataOne struct {
+type JinLiOne struct {
 	Id         int
 	DateUrl    string `orm:"size(32)"`
 	Ba         string `orm:"size(64)"`
@@ -46,25 +40,14 @@ type JsonDataOne struct {
 	UpdatedAt  time.Time
 }
 
-func (m *JsonDataOne) TableName() string {
-	return TableName("jsondataone")
-}
-
-func (m *JsonDataOne) SaveJsonDataOne() (int64, error) {
-	o := orm.NewOrm()
-	m.CreatedAt = time.Now()
-	m.UpdatedAt = time.Now()
-	return o.Insert(m)
-}
-
 func init() {
-	orm.RegisterModel(new(JsonDataOne))
+	orm.RegisterModel(new(JinLiOne))
 }
 
-func InsertJsonOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v string) (int64, error) {
+func InsertJinLiOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v string) (int64, error) {
 	o := orm.NewOrm()
 
-	M := new(JsonDataOne)
+	M := new(JinLiOne)
 	M.DateUrl = dateUrl
 	M.Ba = ba
 	M.Ip = ip
@@ -93,6 +76,5 @@ func InsertJsonOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, 
 	M.CreatedAt = time.Now()
 	M.UpdatedAt = time.Now()
 	logs.Info("M1=", m1)
-
 	return o.Insert(M)
 }

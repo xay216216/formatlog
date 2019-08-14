@@ -13,19 +13,19 @@ import (
 )
 
 // 执行脚本
-func InsertJsonDataOne() {
+func InsertJinLiOne() {
 	log.Info("开始执行脚本---InsertJsonDataOne")
 	//获取数据
-	formatNow = now.AddDate(0, 0, -48)  //-65 对应220190608
+	formatNow = now.AddDate(0, 0, -10)  //-65 对应220190608
 	dateUrl = formatNow.Format("20060102")
 	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
-	InsertMysql(url)
+	InsertMysqlJinLiOne(url)
 
 }
 
 //insert mysql
-func InsertMysql(dir string) {
+func InsertMysqlJinLiOne(dir string) {
 	logDataOne = make(map[string]JsonFormatOne)
 	files, err := ioutil.ReadDir(dir)
 	if err != nil {
@@ -72,8 +72,8 @@ Loop:
 				tm := gjson.Get(line, "tm").String()
 				v := gjson.Get(line, "v").String()
 				//seg
-				custom := gjson.Get(line, "seg.custom").String()
-				if len(custom) > 0 {
+				custom := gjson.Get(line, "custom").String()
+				if len(custom) != 0 {
 					appv := gjson.Get(line, "seg.custom.appv").String()
 					categoryId := gjson.Get(line, "seg.custom.categoryId").String()
 					clickType := gjson.Get(line, "seg.custom.clickType").String()
@@ -92,7 +92,7 @@ Loop:
 					uid := gjson.Get(line, "seg.custom.uid").String()
 
 					//写入数据库
-					models.InsertJsonOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
+					models.InsertJinLiOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
 
 				} else {
 					appv := gjson.Get(line, "seg.appv").String()
@@ -113,7 +113,7 @@ Loop:
 					uid := gjson.Get(line, "seg.uid").String()
 
 					//写入数据库
-					models.InsertJsonOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
+					models.InsertJinLiOne(dateUrl, ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v)
 
 				}
 			}

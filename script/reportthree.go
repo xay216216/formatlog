@@ -109,6 +109,7 @@ func reportThreeCount() {
 		//除搜索粘贴板之外的商品点击数--点击访问商品详情页UV
 		if value.NM == "EVENT_GOODS_DETAIL_PV" {
 			if value.FROM == "category" || value.FROM == "zq" {
+				log.Info(key)
 				reportDataThree["GoodsClick"] = reportDataThree["GoodsClick"] + 1 //除搜索粘贴板之外的商品点击数
 				_, ok := GoodsDetail[value.M1]
 				if !ok {

@@ -123,6 +123,7 @@ func ReadCountLog(dir string) {
 	if err != nil {
 		panic(err)
 	}
+	var fileNum = 0
 Loop:
 	for _, file := range files {
 		filename := file.Name()
@@ -151,6 +152,7 @@ Loop:
 
 		buf := bufio.NewReader(logFile)
 		var lineNum = 0
+		fileNum++
 		for {
 			line, err := buf.ReadString('\n')
 			line = strings.TrimSpace(line)
@@ -185,7 +187,7 @@ Loop:
 
 				//写入map
 				//mapString := m1 + "_" + tm + "_" + nm
-				mapString := m1 + "_" + tm + "_" + nm + "_" + strconv.Itoa(lineNum)
+				mapString := m1 + "_" + tm + "_" + nm + "_" + from + "_" + strconv.Itoa(lineNum) + "_" + strconv.Itoa(fileNum)
 				logDataOne[mapString] = JsonFormatOne{ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v}
 
 			}
