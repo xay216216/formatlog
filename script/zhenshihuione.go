@@ -16,7 +16,7 @@ import (
 func InsertZhenShiHuiOne() {
 	log.Info("开始执行脚本---InsertJsonDataOne")
 	//获取数据
-	formatNow = now.AddDate(0, 0, -8)  //-65 对应220190608
+	formatNow = now.AddDate(0, 0, -1)  //-65 对应220190608
 	dateUrl = formatNow.Format("20060102")
 	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)

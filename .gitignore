@@ -17,7 +17,7 @@ db.json
 *.conf
 conf/
 hdfslog/
-jinlilog/
+jinli_qingdianshang/
 logs/
 log/
 .deploy*/

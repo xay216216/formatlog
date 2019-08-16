@@ -3,6 +3,7 @@ package main
 import (
 	"formatlog/conf"
 	"formatlog/script"
+	"formatlog/jinli"
 )
 
 func main() {
@@ -41,11 +42,13 @@ func dotask() {
 	//script.GetUidM1()
 	//script.ReportOnetask()
 	//script.ReportTwoTask()
-	script.ReportThreeTask()
+	//script.ReportThreeTask()
 	//script.InsertJsonDataOne()
 
 	//script.InsertJinLiOne()
 	//script.InsertZhenShiHuiOne()
+
+	jinli.ReportThreeTask()
 
 	/*taskTime := myConfig.Read("task", "taskTime")
 	setLogTask := toolbox.NewTask("setLog", taskTime, newsBot)
@@ -66,6 +69,8 @@ func newsBot() error {
 	script.ReportThreeTask()
 	script.GetUidM1()
 	script.InsertJsonDataOne()
+
+	jinli.ReportThreeTask()
 
 	return nil
 }
