@@ -16,7 +16,7 @@ db.json
 *.log
 *.conf
 conf/
-hdfslog/
+zheng_shihui/
 jinli_qingdianshang/
 logs/
 log/

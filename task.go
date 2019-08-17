@@ -42,13 +42,13 @@ func dotask() {
 	//script.GetUidM1()
 	//script.ReportOnetask()
 	//script.ReportTwoTask()
-	//script.ReportThreeTask()
+	script.ReportThreeTask()
 	//script.InsertJsonDataOne()
 
 	//script.InsertJinLiOne()
 	//script.InsertZhenShiHuiOne()
 
-	jinli.ReportThreeTask()
+	//jinli.ReportThreeTask()
 
 	/*taskTime := myConfig.Read("task", "taskTime")
 	setLogTask := toolbox.NewTask("setLog", taskTime, newsBot)
