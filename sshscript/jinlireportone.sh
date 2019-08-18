@@ -77,24 +77,7 @@ XdlvPDD=0
 
 
 
-echo  -e "报告生成时间：  ${maketime}" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "日期：  ${logdate}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "电商平台：  全部" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "详情页搜索PV：  ${XqyssPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "详情页搜索UV：  ${XqyssUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "人均详情次数：  ${Xqysslv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "精准商品PV：  ${JzspPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "精准商品点击PV：  ${JzspdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "精准商品点击率：  ${Jzspdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "相似商品PV：  ${SsspPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "相似商品点击PV：  ${SsspdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "相似商品点击率   ：  ${Ssspdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "无结果PV：  ${WjgPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "结果总点击PV：  ${JgzdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "下单PV：  ${XdPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "下单率：  ${Xdlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "精准商品UV：  ${JzspUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "精准商品点击UV：  ${JzspdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "相似商品UV：  ${SsspUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
-echo  -e "相似商品点击UV：  ${SsspdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.csv
+echo  -e "报告生成时间\t日期\t电商平台\t详情页搜索PV\t详情页搜索UV\t人均详情次数\t精准商品PV\t精准商品点击PV\t精准商品点击率\t相似商品PV\t相似商品点击PV\t相似商品点击率\t无结果PV\t结果总点击PV\t下单PV\t下单率\t精准商品UV\t精准商品点击UV\t相似商品UV\t相似商品点击UV" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.excel
+
+echo  -e "${maketime}\t${logdate}\t全部\t${XqyssPv}\t${XqyssUv}\t${Xqysslv}\t${JzspPv}\t${JzspdjPv}\t${Jzspdjlv}\t${SsspPv}\t${SsspdjPv}\t${Ssspdjlv}\t${WjgPv}\t${JgzdjPv}\t${XdPv}\t${Xdlv}\t${JzspUv}\t${JzspdjUv}\t${SsspUv}\t${SsspdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlione.excel
 

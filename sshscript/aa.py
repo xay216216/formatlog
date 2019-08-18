@@ -36,7 +36,8 @@ import os
 import commands
 
 cmd1 = "cd /home/xiaoayong/work/zheng_shihui"
-cmd2 = "hdfs dfs -get hdfs://nameservice1/songshu/track/zheng_shihui/`date -d 'yesterday' +'%Y%m%d'` "
+cmd2 = "cd /home/xiaoayong/work/zheng_shihui"
+cmd3 = "hdfs dfs -get hdfs://nameservice1/songshu/track/zheng_shihui/`date -d 'yesterday' +'%Y%m%d'` "
 cmd = cmd1 + " && " + cmd2
 
 subprocess.call(cmd,shell=True)
@@ -52,13 +53,57 @@ subprocess.call(cmd,shell=True)
 
 
 
-5 14 * * * python /home/xiaoayong/work/script/getzhengshihuilog.py
+10 01 * * * bash /home/xiaoayong/work/script/everyday.sh  1>/home/xiaoayong/work/script/everyday.log 2>&1
 
-0 14 * * * python /home/xiaoayong/work/script/getjinlilog.py
+25 02 * * * bash /home/xiaoayong/work/script/jinlireportone.sh 1>/home/xiaoayong/work/script/jinlione.log 2>&1
 
-10 15 * * * bash /home/xiaoayong/work/script/jinlireportthree.sh
+10 03 * * * bash /home/xiaoayong/work/script/jinlireportthree.sh 1>/home/xiaoayong/work/script/jinlithree.log 2>&1
 
-20 15 * * * bash /home/xiaoayong/work/script/jinlireportfour.sh
+10 04 * * * bash /home/xiaoayong/work/script/jinlireportfour.sh 1>/home/xiaoayong/work/script/jinlifour.log 2>&1
+
+30 09 * * * bash /home/xiaoayong/work/script/sendemail.sh  1>/home/xiaoayong/work/script/sendemail.log 2>&1
+
+
+
+* * * * * bash /home/xiaopeng9/t.sh 1>/tmp/xxxx.log 2>&1
+
+
+ export HADOOP_HOME=/data/server/pinedd/hadoop-3.1.2/bin
+
+ export PATH=$PATH:$
+
+ vim ~/.bash_profile
+
+ source ~/.bash_profile
+
+
+ vim ~/.bashrc 
+
+ source ~/.bashrc
+
+
+ /usr/bin/sendemail --help
+
+ /usr/bin/sendemail
+
+-f  619341326@qq.com 发件人邮箱地址
+
+-t  test@qq.com  收件人邮箱
+
+-s  smtp.qq.com  发件人邮箱的smtp服务器
+
+-u  '标题'  邮件的主题
+
+-o message-content-type=html  邮件内容的格式为html，也可以是text
+
+-o message-charset=utf8  邮件内容编码
+
+-xu 619341326@qq.com  发件人账号
+
+-xp 123456  发件人密码
+
+-m  '邮件内容'  邮件的内容
+
 
 
 

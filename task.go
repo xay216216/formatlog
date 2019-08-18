@@ -3,7 +3,7 @@ package main
 import (
 	"formatlog/conf"
 	"formatlog/script"
-	"formatlog/jinli"
+	"github.com/astaxie/beego/toolbox"
 )
 
 func main() {
@@ -42,7 +42,7 @@ func dotask() {
 	//script.GetUidM1()
 	//script.ReportOnetask()
 	//script.ReportTwoTask()
-	script.ReportThreeTask()
+	//script.ReportThreeTask()
 	//script.InsertJsonDataOne()
 
 	//script.InsertJinLiOne()
@@ -50,27 +50,27 @@ func dotask() {
 
 	//jinli.ReportThreeTask()
 
-	/*taskTime := myConfig.Read("task", "taskTime")
+	taskTime := myConfig.Read("task", "taskTime")
 	setLogTask := toolbox.NewTask("setLog", taskTime, newsBot)
 	//添加定时任务
 	toolbox.AddTask("setLog", setLogTask)
 	//启动定时任务
 	toolbox.StartTask()
 	defer toolbox.StopTask()
-	select {}*/
+	select {}
 
 }
 
 func newsBot() error {
 	//fmt.Println(11)
-	script.WriteXls()
-	script.ReportOneTask()
-	script.ReportTwoTask()
+	//script.WriteXls()
+	//script.ReportOneTask()
+	//script.ReportTwoTask()
 	script.ReportThreeTask()
-	script.GetUidM1()
-	script.InsertJsonDataOne()
+	//script.GetUidM1()
+	//script.InsertJsonDataOne()
 
-	jinli.ReportThreeTask()
+	//jinli.ReportThreeTask()
 
 	return nil
 }

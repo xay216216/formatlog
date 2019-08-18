@@ -87,76 +87,12 @@ Xtcgblv=$(printf "%.3f" `echo "scale=3;$XtcgbUv/$FbdjUv"|bc`)
 XtcgblvTB=$(printf "%.3f" `echo "scale=3;$XtcgbUvTB/$FbdjUvTB"|bc`)
 XtcgblvPDD=$(printf "%.3f" `echo "scale=3;$XtcgbUvPDD/$FbdjUvPDD"|bc`)
 
-echo -e "概况\n报告生成时间：${maketime}\n日期:${logdate}\n电商平台:全部\n\t灭屏拉活电商PV:${MplhPv}\n\n灭屏拉活UV\n${MplhUv}\n\n弹窗显示PV\n${TcxsPv}\n\n弹窗显示UV\n${TcxsUv}n\n激活点击PV\n${JhdjPv}\n\n激活点击UV\n${JhdjUv}\n\n激活率\n${Jhdjlv}\n\n弹窗意外关闭PV\n${TcywgbPv}\n\n弹窗意外关闭UV\n${TcywgbUv}\n\n意外关闭率\n${Tcywgblv}\n\n下次提醒点击PV\n${XctxdjPv}\n\n 下次提醒点击UV\n${XctxdjUv}\n\n关闭率\n${Xctxdjlv}\n\n浮标点击PV\n${FbdjPv}\n\n浮标点击UV\n${FbdjUv}\n\n人均浮标点击\n${Fbdjlv}\n\n小弹窗激活PV\n${XtcjhPv}\n\n小弹窗激活UV\n${XtcjhUv}\n\n浮标激活率\n${Xtcjhlv}\n\n小弹窗关闭PV\n${XtcgbPv}\n\n小弹窗关闭UV\n${XtcgbUv}\n\n小窗关闭率\n${Xtcgblv}\n\n电商平台:淘宝\n\n灭屏拉活电商PV:${MplhPvTB}\n\n灭屏拉活UV\n${MplhUvTB}\n\n弹窗显示PV\n${TcxsPvTB}\n\n弹窗显示UV\n${TcxsUvTB}\n\n激活点击PV\n${JhdjPvTB}\n\n激活点击UV\n${JhdjUvTB}\n\n激活率\n${JhdjlvTB}\n\n弹窗意外关闭PV\n${TcywgbPvTB}\n\n弹窗意外关闭UV\n${TcywgbUvTB}\n\n意外关闭率\n${TcywgblvTB}\n\n下次提醒点击PV\n${XctxdjPvTB}\n\n下次提醒点击UV\n${XctxdjUvTB}\n\n关闭率\n${XctxdjlvTB}\n\n浮标点击PV\n${FbdjPvTB}\n\n浮标点击UV\n${FbdjUvTB}\n\n人均浮标点击\n${FbdjlvTB}\n\n小弹窗激活PV\n${XtcjhPvTB}\n\n小弹窗激活UV\n${XtcjhUvTB}\n\n浮标激活率\n${XtcjhlvTB}\n\n小弹窗关闭PV\n${XtcgbPvTB}\n\n小弹窗关闭UV\n${XtcgbUvTB}\n\n小窗关闭率\n${XtcgblvTB}\n\n电商平台:平多多\n\n灭屏拉活电商PV:${MplhPvPDD}\n\n灭屏拉活UV\n${MplhUvPDD}\n\n弹窗显示PV\n${TcxsPvPDD}\n\n弹窗显示UV\n${TcxsUvPDD}\n\n激活点击PV\n${JhdjPvPDD}\n\n激活点击UV\n${JhdjUvPDD}\n\n激活率\n${JhdjlvPDD}\n\n弹窗意外关闭PV\n${TcywgbPvPDD}\n\n弹窗意外关闭UV\n${TcywgbUvPDD}\n\n意外关闭率\n${TcywgblvPDD}\n\n下次提醒点击PV\n${XctxdjPvPDD}\n\n下次提醒点击UV\n${XctxdjUvPDD}\n\n关闭率\n${XctxdjlvPDD}\n\n浮标点击PV\n${FbdjPvPDD}\n\n浮标点击UV\n${FbdjUvPDD}\n\n人均浮标点击\n${FbdjlvPDD}\n\n小弹窗激活PV\n${XtcjhPvPDD}\n\n小弹窗激活UV\n${XtcjhUvPDD}\n\n浮标激活率\n${XtcjhlvPDD}\n\n小弹窗关闭PV\n${XtcgbPvPDD}\n\n小弹窗关闭UV\n${XtcgbUvPDD}\n\n小窗关闭率\n${XtcgblvPDD}" | mail -s "$domain $logdate log statistics" ${email}　
+echo -e "报告生成时间\t日期\t电商平台\t灭屏拉活电商PV\t灭屏拉活UV\t弹窗显示PV\t弹窗显示UV\t激活点击PV\t激活点击UV\t激活率\t弹窗意外关闭PV\t弹窗意外关闭UV\t意外关闭率\t下次提醒点击PV\t下次提醒点击UV\t关闭率\t浮标点击PV\t浮标点击UV\t人均浮标点击\t小弹窗激活PV\t小弹窗激活UV\t浮标激活率\t小弹窗关闭PV\t小弹窗关闭UV\t小窗关闭率" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
 
-echo  -e "报告生成时间：  ${maketime}" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "日期：  ${logdate}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "电商平台：  全部" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活电商PV：  ${MplhPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活UV：  ${MplhUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示PV：  ${TcxsPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示UV：  ${TcxsUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击PV：  ${JhdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击UV：  ${JhdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活率：  ${Jhdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭PV：  ${TcywgbPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭UV：  ${TcywgbUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "意外关闭率：  ${Tcywgblv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击PV：  ${XctxdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击UV：  ${XctxdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "关闭率：  ${Xctxdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击PV：  ${FbdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击UV：  ${FbdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "人均浮标点击：  ${Fbdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活PV：  ${XtcjhPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活UV：  ${XtcjhUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标激活率：  ${Xtcjhlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭PV：  ${XtcgbPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭UV：  ${XtcgbUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小窗关闭率：  ${Xtcgblv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "电商平台：  淘宝" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活电商PV：  ${MplhPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活UV：  ${MplhUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示PV：  ${TcxsPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示UV：  ${TcxsUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击PV：  ${JhdjPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击UV：  ${JhdjUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活率：  ${JhdjlvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭PV：  ${TcywgbPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭UV：  ${TcywgbUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "意外关闭率：  ${TcywgblvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击PV：  ${XctxdjPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击UV：  ${XctxdjUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "关闭率：  ${XctxdjlvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击PV：  ${FbdjPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击UV：  ${FbdjUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "人均浮标点击：  ${FbdjlvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活PV：  ${XtcjhPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活UV：  ${XtcjhUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标激活率：  ${XtcjhlvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭PV：  ${XtcgbPvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭UV：  ${XtcgbUvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小窗关闭率：  ${XtcgblvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "电商平台：  平多多" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活电商PV：  ${MplhPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "灭屏拉活UV：  ${MplhUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示PV：  ${TcxsPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗显示UV：  ${TcxsUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击PV：  ${JhdjPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活点击UV：  ${JhdjUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "激活率：  ${JhdjlvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭PV：  ${TcywgbPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "弹窗意外关闭UV：  ${TcywgbUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "意外关闭率：  ${TcywgblvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击PV：  ${XctxdjPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "下次提醒点击UV：  ${XctxdjUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "关闭率：  ${XctxdjlvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击PV：  ${FbdjPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标点击UV：  ${FbdjUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "人均浮标点击：  ${FbdjlvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活PV：  ${XtcjhPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗激活UV：  ${XtcjhUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "浮标激活率：  ${XtcjhlvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭PV：  ${XtcgbPvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小弹窗关闭UV：  ${XtcgbUvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
-echo  -e "小窗关闭率：  ${XtcgblvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.csv
+echo -e "${maketime}\t${logdate}\t全部\t${MplhPv}\t${MplhUv}\t${TcxsPv}\t${TcxsUv}\t${JhdjPv}\t${JhdjUv}\t${Jhdjlv}\t${TcywgbPv}\t${TcywgbUv}\t${Tcywgblv}\t${XctxdjPv}\t${XctxdjUv}\t${Xctxdjlv}\t${FbdjPv}\t${FbdjUv}\t${Fbdjlv}\t${XtcjhPv}\t${XtcjhUv}\t${Xtcjhlv}\t${XtcgbPv}\t${XtcgbUv}\t${Xtcgblv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+
+echo -e "${maketime}\t${logdate}\t淘宝\t${MplhPvTB}\t${MplhUvTB}\t${TcxsPvTB}\t${TcxsUvTB}\t${JhdjPvTB}\t${JhdjUvTB}\t${JhdjlvTB}\t${TcywgbPvTB}\t${TcywgbUvTB}\t${TcywgblvTB}\t${XctxdjPvTB}\t${XctxdjUvTB}\t${XctxdjlvTB}\t${FbdjPvTB}\t${FbdjUvTB}\t${FbdjlvTB}\t${XtcjhPvTB}\t${XtcjhUvTB}\t${XtcjhlvTB}\t${XtcgbPvTB}\t${XtcgbUvTB}\t${XtcgblvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+
+echo -e "${maketime}\t${logdate}\t拼多多\t${MplhPvPDD}\t${MplhUvPDD}\t${TcxsPvPDD}\t${TcxsUvPDD}\t${JhdjPvPDD}\t${JhdjUvPDD}\t${JhdjlvPDD}\t${TcywgbPvPDD}\t${TcywgbUvPDD}\t${TcywgblvPDD}\t${XctxdjPvPDD}\t${XctxdjUvPDD}\t${XctxdjlvPDD}\t${FbdjPvPDD}\t${FbdjUvPDD}\t${FbdjlvPDD}\t${XtcjhPvPDD}\t${XtcjhUvPDD}\t${XtcjhlvPDD}\t${XtcgbPvPDD}\t${XtcgbUvPDD}\t${XtcgblvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+
+

@@ -95,29 +95,9 @@ Zsykqlv=$(printf "%.3f" `echo "scale=3;$ZsykqdjUv/$DbtabdjUv"|bc`)
 ##ZsykqlvPDD=$(printf "%.3f" `echo "scale=3;$ZsykqdjUvPDD/$FbdjUvPDD"|bc`)
 
 
-echo  -e "报告生成时间：  ${maketime}" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "日期：  ${logdate}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "电商平台：  全部" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "帮购启动PV：  ${BgqdPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "帮购启动UV：  ${BgqdUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗显示PV：  ${TcxsPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗显示UV：  ${TcxsUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗激活PV：  ${TcjhPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗激活UV：  ${TcjhUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "激活率：  ${Tcjhlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗到后台PV：  ${TcdhtPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗到后台Uv：  ${TcdhtUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "弹窗到后台率：  ${Tcdhtlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "下次提醒点击PV：  ${XctxdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "下次提醒点击UV：  ${XctxdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "关闭率：  ${Xctxdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "底部tab展示PV：  ${DbtabzsPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "底部tab展示UV：  ${DbtabzsUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "tab展示率：  ${Dbtabzslv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "底部tab点击PV：  ${DbtabdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "底部tab点击UV：  ${DbtabdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "tab点击率：  ${Dbtabdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "助手页开启点击PV：  ${ZsykqdjPv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "助手页开启点击UV：  ${ZsykqdjUv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "助手页开启点击率：  ${Zsykqdjlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
-echo  -e "助手页开启率：  ${Zsykqlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.csv
+
+echo  -e "报告生成时间\t日期\t电商平台\t帮购启动PV\t帮购启动UV\t弹窗显示PV\t弹窗显示UV\t弹窗激活PV\t弹窗激活UV\t激活率\t弹窗到后台PV\t弹窗到后台Uv\t弹窗到后台率\t下次提醒点击PV\t下次提醒点击UV\t关闭率\t底部tab展示PV\t底部tab展示UV\ttab展示率\t底部tab点击PV\t底部tab点击UV\ttab点击率\t助手页开启点击PV\t助手页开启点击UV\t助手页开启点击率\t助手页开启率" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.excel
+
+echo  -e "${maketime}\t${logdate}\t全部\t${BgqdPv}\t${BgqdUv}\t${TcxsPv}\t${TcxsUv}\t${TcjhPv}\t${TcjhUv}\t${Tcjhlv}\t${TcdhtPv}\t${TcdhtUv}\t${Tcdhtlv}\t${XctxdjPv}\t${XctxdjUv}\t${Xctxdjlv}\t${DbtabzsPv}\t${DbtabzsUv}\t${Dbtabzslv}\t${DbtabdjPv}\t${DbtabdjUv}\t${Dbtabdjlv}\t${ZsykqdjPv}\t${ZsykqdjUv}\t${Zsykqdjlv}\t${Zsykqlv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlifour.excel
+
+
