@@ -6,6 +6,8 @@ domain="mail.qq.com"
 email="843150233@qq.com"
 maketime=`date +%Y-%m-%d" "%H":"%M`
 logdate=`date -d "yesterday" +%Y-%m-%d`
+
+# date --date='1 days ago' +%Y%m%d
 #灭屏拉活
 MplhPv=` cat ${log_path} | grep '"nm":"GIONEE_TAOBAO_HELPER_DIALOG_OFF_SCREEN"' | wc -l  `
 MplhPvTB=` cat ${log_path} | grep '"nm":"GIONEE_TAOBAO_HELPER_DIALOG_OFF_SCREEN"' | grep '"eplatform":"1"' | wc -l  `

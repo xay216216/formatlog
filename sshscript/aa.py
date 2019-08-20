@@ -42,16 +42,7 @@ cmd = cmd1 + " && " + cmd2
 
 subprocess.call(cmd,shell=True)
 
-
-0 14 * * * python /home/xiaoayong/work/script/gethdfslog.py
-
-* * * * * bash /home/xiaoayong/work/script/zhengshihuireportone.sh
-
-10 * * * * bash /home/xiaoayong/work/script/jinlireportthree.sh
-
-20 * * * * bash /home/xiaoayong/work/script/jinlireportfour.sh
-
-
+`date --date='1 days ago' +%Y%m%d`
 
 10 01 * * * bash /home/xiaoayong/work/script/everyday.sh  1>/home/xiaoayong/work/script/everyday.log 2>&1
 
@@ -66,7 +57,6 @@ subprocess.call(cmd,shell=True)
 
 
 * * * * * bash /home/xiaopeng9/t.sh 1>/tmp/xxxx.log 2>&1
-
 
  export HADOOP_HOME=/data/server/pinedd/hadoop-3.1.2/bin
 
@@ -103,6 +93,27 @@ subprocess.call(cmd,shell=True)
 -xp 123456  发件人密码
 
 -m  '邮件内容'  邮件的内容
+
+/opt/spark-2.1.0/bin/spark-submit bbb.py
+
+/opt/spark-2.1.0/bin/spark-submit bbb.py
+/d/spark-2.4.3/bin/spark-submit wordCount.py
+
+spark-submit D:/GoWorkPath/src/formatlog/sshscript/wordCount.py
+
+安装xlwt
+一 安装pip
+curl -O https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+
+二 安装xlrd--读 xlwt--写
+xlrd：是python从excel读数据的第三方控件；
+xlwt：是python从excel写数据的第三方控件；
+xlutils：是python使用xlrd、xlwt的工具箱。若安装不成功，可能原因是需要安装setuptools。
+pip  install xlrd
+pip  install xlwt
+pip  install xlutils
+
 
 
 

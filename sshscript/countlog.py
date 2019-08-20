@@ -68,3 +68,9 @@ sheet = wbk.add_sheet("wordCount")#Excel单元格名字
 sheet.write(i, 1, label = result_str) 
 sheet.write(i, 0, label = result_str) 
 wbk.save('wordCount.xls') #保存为 wordCount.xls文件 
+
+
+sc=SparkContext(appName="jinlione")
+# sc.setLogLevel("ERROR")
+sc.setLogLevel("INFO")
+rdd=sc.textFile("hdfs://nameservice1/songshu/track/jinli_qingdianshang/20190818")

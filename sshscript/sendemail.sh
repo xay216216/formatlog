@@ -13,7 +13,7 @@ EMAIL_USERNAME=xiaoayong@baice100.com
 EMAIL_PASSWORD=Bckj@8888
 
 #附件路径
-FILE1_PATH="/home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlione.excel /home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlithree.excel /home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlifour.excel /home/xiaoayong/work/worklog/zhengshihui/`date -d "yesterday" +'%Y%m%d'`/reportthree.xls"
+FILE1_PATH="/home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlione.xls /home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlithree.xls /home/xiaoayong/work/worklog/jinli/`date -d "yesterday" +'%Y%m%d'`/jinlifour.xls /home/xiaoayong/work/worklog/zhengshihui/`date -d "yesterday" +'%Y%m%d'`/reportthree.xls"
 
 #smtp服务器地址
 EMAIL_SMTPHOST=smtp.exmail.qq.com
@@ -23,7 +23,7 @@ EMAIL_PORT=465
 #EMAIL_PORT=587
 
 EMAIL_TITLE="报表"
-EMAIL_CONTENT="谢谢!"
+EMAIL_CONTENT="昨天金立和挣实惠的相关报表!"
 
 sendEmail -f ${EMAIL_SENDER} -t ${EMAIL_RECIVER} -cc ${EMAIL_CC} -s ${EMAIL_SMTPHOST}  -u ${EMAIL_TITLE} -xu ${EMAIL_USERNAME} -xp ${EMAIL_PASSWORD} -m ${EMAIL_CONTENT} -a ${FILE1_PATH} -o message-charset=utf-8 -o tls=no
 

@@ -87,12 +87,12 @@ Xtcgblv=$(printf "%.3f" `echo "scale=3;$XtcgbUv/$FbdjUv"|bc`)
 XtcgblvTB=$(printf "%.3f" `echo "scale=3;$XtcgbUvTB/$FbdjUvTB"|bc`)
 XtcgblvPDD=$(printf "%.3f" `echo "scale=3;$XtcgbUvPDD/$FbdjUvPDD"|bc`)
 
-echo -e "报告生成时间\t日期\t电商平台\t灭屏拉活电商PV\t灭屏拉活UV\t弹窗显示PV\t弹窗显示UV\t激活点击PV\t激活点击UV\t激活率\t弹窗意外关闭PV\t弹窗意外关闭UV\t意外关闭率\t下次提醒点击PV\t下次提醒点击UV\t关闭率\t浮标点击PV\t浮标点击UV\t人均浮标点击\t小弹窗激活PV\t小弹窗激活UV\t浮标激活率\t小弹窗关闭PV\t小弹窗关闭UV\t小窗关闭率" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+echo -e "报告生成时间\t日期\t电商平台\t灭屏拉活电商PV\t灭屏拉活UV\t弹窗显示PV\t弹窗显示UV\t激活点击PV\t激活点击UV\t激活率\t弹窗意外关闭PV\t弹窗意外关闭UV\t意外关闭率\t下次提醒点击PV\t下次提醒点击UV\t关闭率\t浮标点击PV\t浮标点击UV\t人均浮标点击\t小弹窗激活PV\t小弹窗激活UV\t浮标激活率\t小弹窗关闭PV\t小弹窗关闭UV\t小窗关闭率" > /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.xls
 
-echo -e "${maketime}\t${logdate}\t全部\t${MplhPv}\t${MplhUv}\t${TcxsPv}\t${TcxsUv}\t${JhdjPv}\t${JhdjUv}\t${Jhdjlv}\t${TcywgbPv}\t${TcywgbUv}\t${Tcywgblv}\t${XctxdjPv}\t${XctxdjUv}\t${Xctxdjlv}\t${FbdjPv}\t${FbdjUv}\t${Fbdjlv}\t${XtcjhPv}\t${XtcjhUv}\t${Xtcjhlv}\t${XtcgbPv}\t${XtcgbUv}\t${Xtcgblv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+echo -e "${maketime}\t${logdate}\t全部\t${MplhPv}\t${MplhUv}\t${TcxsPv}\t${TcxsUv}\t${JhdjPv}\t${JhdjUv}\t${Jhdjlv}\t${TcywgbPv}\t${TcywgbUv}\t${Tcywgblv}\t${XctxdjPv}\t${XctxdjUv}\t${Xctxdjlv}\t${FbdjPv}\t${FbdjUv}\t${Fbdjlv}\t${XtcjhPv}\t${XtcjhUv}\t${Xtcjhlv}\t${XtcgbPv}\t${XtcgbUv}\t${Xtcgblv}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.xls
 
-echo -e "${maketime}\t${logdate}\t淘宝\t${MplhPvTB}\t${MplhUvTB}\t${TcxsPvTB}\t${TcxsUvTB}\t${JhdjPvTB}\t${JhdjUvTB}\t${JhdjlvTB}\t${TcywgbPvTB}\t${TcywgbUvTB}\t${TcywgblvTB}\t${XctxdjPvTB}\t${XctxdjUvTB}\t${XctxdjlvTB}\t${FbdjPvTB}\t${FbdjUvTB}\t${FbdjlvTB}\t${XtcjhPvTB}\t${XtcjhUvTB}\t${XtcjhlvTB}\t${XtcgbPvTB}\t${XtcgbUvTB}\t${XtcgblvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+echo -e "${maketime}\t${logdate}\t淘宝\t${MplhPvTB}\t${MplhUvTB}\t${TcxsPvTB}\t${TcxsUvTB}\t${JhdjPvTB}\t${JhdjUvTB}\t${JhdjlvTB}\t${TcywgbPvTB}\t${TcywgbUvTB}\t${TcywgblvTB}\t${XctxdjPvTB}\t${XctxdjUvTB}\t${XctxdjlvTB}\t${FbdjPvTB}\t${FbdjUvTB}\t${FbdjlvTB}\t${XtcjhPvTB}\t${XtcjhUvTB}\t${XtcjhlvTB}\t${XtcgbPvTB}\t${XtcgbUvTB}\t${XtcgblvTB}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.xls
 
-echo -e "${maketime}\t${logdate}\t拼多多\t${MplhPvPDD}\t${MplhUvPDD}\t${TcxsPvPDD}\t${TcxsUvPDD}\t${JhdjPvPDD}\t${JhdjUvPDD}\t${JhdjlvPDD}\t${TcywgbPvPDD}\t${TcywgbUvPDD}\t${TcywgblvPDD}\t${XctxdjPvPDD}\t${XctxdjUvPDD}\t${XctxdjlvPDD}\t${FbdjPvPDD}\t${FbdjUvPDD}\t${FbdjlvPDD}\t${XtcjhPvPDD}\t${XtcjhUvPDD}\t${XtcjhlvPDD}\t${XtcgbPvPDD}\t${XtcgbUvPDD}\t${XtcgblvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.excel
+echo -e "${maketime}\t${logdate}\t拼多多\t${MplhPvPDD}\t${MplhUvPDD}\t${TcxsPvPDD}\t${TcxsUvPDD}\t${JhdjPvPDD}\t${JhdjUvPDD}\t${JhdjlvPDD}\t${TcywgbPvPDD}\t${TcywgbUvPDD}\t${TcywgblvPDD}\t${XctxdjPvPDD}\t${XctxdjUvPDD}\t${XctxdjlvPDD}\t${FbdjPvPDD}\t${FbdjUvPDD}\t${FbdjlvPDD}\t${XtcjhPvPDD}\t${XtcjhUvPDD}\t${XtcjhlvPDD}\t${XtcgbPvPDD}\t${XtcgbUvPDD}\t${XtcgblvPDD}" >> /home/xiaoayong/work/worklog/jinli/${date_url}/jinlithree.xls
 
 
