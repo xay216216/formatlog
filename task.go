@@ -3,7 +3,6 @@ package main
 import (
 	"formatlog/conf"
 	"formatlog/script"
-	"github.com/astaxie/beego/toolbox"
 )
 
 func main() {
@@ -30,11 +29,11 @@ func main() {
 
 		log.Flush() // 将日志从缓冲区读出，写入到文件
 		log.Close()*/
-	dotask()
+		doTask()
 
 }
 
-func dotask() {
+func doTask() {
 	myConfig := new(conf.Config)
 	myConfig.InitConfig("./conf/app.conf")
 
@@ -43,6 +42,7 @@ func dotask() {
 	//script.ReportOnetask()
 	//script.ReportTwoTask()
 	//script.ReportThreeTask()
+	script.ReportFourTask()
 	//script.InsertJsonDataOne()
 
 	//script.InsertJinLiOne()
@@ -50,14 +50,14 @@ func dotask() {
 
 	//jinli.ReportThreeTask()
 
-	taskTime := myConfig.Read("task", "taskTime")
+	/*taskTime := myConfig.Read("task", "taskTime")
 	setLogTask := toolbox.NewTask("setLog", taskTime, newsBot)
 	//添加定时任务
 	toolbox.AddTask("setLog", setLogTask)
 	//启动定时任务
 	toolbox.StartTask()
 	defer toolbox.StopTask()
-	select {}
+	select {}*/
 
 }
 

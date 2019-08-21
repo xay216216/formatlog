@@ -98,8 +98,8 @@ if TcxsUvTB == 0:
  TcjhlvTB=0.00
 else: 
  TcjhlvTB=round(TcjhUvTB/TcxsUvTB,2)
-if TcjhlvPDD == 0:
- JzspdjlvPDD=0.00
+if TcxsUvPDD == 0:
+ TcjhlvPDD=0.00
 else: 
  TcjhlvPDD=round(TcjhUvPDD/TcxsUvPDD,2)
 
@@ -156,9 +156,9 @@ DbtabzsUv=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_BANGO_HE
 DbtabzsUvTB=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_BANGO_HELPER_TAB_SHOW' AND seg.custom.eplatform='1' ").count()
 DbtabzsUvPDD=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_BANGO_HELPER_TAB_SHOW' AND seg.custom.eplatform='2' ").count()
 
-JianfaUv=TcxsUv-$TcdhtUv
-JianfalvTB=TcxsPvTB-$TcdhtUvTB
-JianfalvPDD=TcxsPvPDD-$TcdhtUvPDD
+JianfaUv=TcxsUv-TcdhtUv
+JianfaUvTB=TcxsUvTB-TcdhtUvTB
+JianfaUvPDD=TcxsUvPDD-TcdhtUvPDD
 
 if JianfaUv == 0:
  Dbtabzslv=0.00

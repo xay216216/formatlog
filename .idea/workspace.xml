@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8987121-0400-495d-934c-f44d2293bf36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="7a56631d-4974-4c26-84e8-d4a42cc55d1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ebeasy/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebeasy/eb_goods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/reportfour.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/formatlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/formatlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/formatlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/formatlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sshscript/aa.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/aa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/countlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/countlog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/everyday.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/everyday.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshscript/jinlifour.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlifour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshscript/jinlione.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlione.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sshscript/jinlireportfour.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlireportfour.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/jinlireportone.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlireportone.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/jinlireportthree.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlireportthree.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/reportdemo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/reportdemo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/sendemail.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/sendemail.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sshscript/wordCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/wordCount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sshscript/jinlithree.py" beforeDir="false" afterPath="$PROJECT_DIR$/sshscript/jinlithree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/task.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +28,82 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/app.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/reportthree.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/zhenshihuione.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/reportfour.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebeasy/eb_goods.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#16#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebeasy/common.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="e#16#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,27 +111,66 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ReadCountLog</find>
-      <find>eplatform</find>
-    </findStrings>
-  </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/ebeasy/common.go" />
+        <option value="$PROJECT_DIR$/task.go" />
+        <option value="$PROJECT_DIR$/ebeasy/eb_goods.go" />
+        <option value="$PROJECT_DIR$/script/reportfour.go" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="456" />
+    <option name="y" value="66" />
     <option name="width" value="1918" />
     <option name="height" value="1044" />
   </component>
-  <component name="ProjectId" id="1PfbgaSOgvkb7q02GLarkKz0aEu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1PgsUpipUq8su4vz96Qc6iXo3L9" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="formatlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formatlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatlog" type="462c0819:PsiDirectoryNode" />
+              <item name="ebeasy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formatlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatlog" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="formatlog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatlog" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -58,10 +178,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,48 +192,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build task.go">
     <configuration name="go build task.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="formatlog" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/task.go" />
       <package value="formatlog" />
-      <directory value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="jinlione" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="formatlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sshscript" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sshscript/jinlione.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build task.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8987121-0400-495d-934c-f44d2293bf36" name="Default Changelist" comment="" />
-      <created>1566268210029</created>
+      <changelist id="7a56631d-4974-4c26-84e8-d4a42cc55d1e" name="Default Changelist" comment="" />
+      <created>1566307093031</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566268210029</updated>
+      <updated>1566307093031</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16148068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.5633047" weight="0.13636364" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.18181819" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.042128604" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49892703" weight="0.42904657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -157,5 +301,126 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/jinlione.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="94" column="41" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/jinlione.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/zhenshihuione.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebeasy/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#16#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/getuidm1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2461">
+          <caret line="117" column="74" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/reportone.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/writexls.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/zhenshihuione.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebeasy/eb_goods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#16#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/common.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3063">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/reportthree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/reportfour.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

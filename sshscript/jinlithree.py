@@ -112,10 +112,6 @@ TcywgbUv=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_HE
 TcywgbUvTB=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_HELPER_DIALOG_ACCIDENT_CLOSE' AND seg.custom.eplatform='1' ").count()
 TcywgbUvPDD=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_HELPER_DIALOG_ACCIDENT_CLOSE' AND seg.custom.eplatform='2' ").count()
 
-Tcywgblv=$(printf "%.3f" `echo "scale=3;$TcywgbUv/$TcxsUv"|bc`)
-TcywgblvTB=$(printf "%.3f" `echo "scale=3;$TcywgbUvTB/$TcxsUvTB"|bc`)
-TcywgblvPDD=$(printf "%.3f" `echo "scale=3;$TcywgbUvPDD/$TcxsUvPDD"|bc`)
-
 if TcxsUv == 0:
  Tcywgblv=0.00
 else: 
@@ -182,10 +178,6 @@ XtcjhUv=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FRO
 XtcjhUvTB=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_BIG_COUPON_OPEN_HELPER_DIALOG_OPEN_CLICK' AND seg.custom.eplatform='1' ").count()
 XtcjhUvPDD=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_BIG_COUPON_OPEN_HELPER_DIALOG_OPEN_CLICK' AND seg.custom.eplatform='2' ").count()
 
-Xtcjhlv=$(printf "%.3f" `echo "scale=3;$XtcjhUv/$FbdjUv"|bc`)
-XtcjhlvTB=$(printf "%.3f" `echo "scale=3;$XtcjhUvTB/$FbdjUvTB"|bc`)
-XtcjhlvPDD=$(printf "%.3f" `echo "scale=3;$XtcjhUvPDD/$FbdjUvPDD"|bc`)
-
 if FbdjUv == 0:
  Xtcjhlv=0.00
 else: 
@@ -207,10 +199,6 @@ XtcgbPvPDD=spark.sql("SELECT * FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_
 XtcgbUv=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_BIG_COUPON_OPEN_HELPER_DIALOG_CUSTOM_CLOSE' ").count()
 XtcgbUvTB=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_BIG_COUPON_OPEN_HELPER_DIALOG_CUSTOM_CLOSE' AND seg.custom.eplatform='1' ").count()
 XtcgbUvPDD=spark.sql("SELECT distinct(m1) FROM jinlilog WHERE nm='GIONEE_TAOBAO_FROM_SHAKE_BIG_COUPON_OPEN_HELPER_DIALOG_CUSTOM_CLOSE' AND seg.custom.eplatform='2' ").count()
-
-Xtcgblv=$(printf "%.3f" `echo "scale=3;$XtcgbUv/$FbdjUv"|bc`)
-XtcgblvTB=$(printf "%.3f" `echo "scale=3;$XtcgbUvTB/$FbdjUvTB"|bc`)
-XtcgblvPDD=$(printf "%.3f" `echo "scale=3;$XtcgbUvPDD/$FbdjUvPDD"|bc`)
 
 if FbdjUv == 0:
  Xtcgblv=0.00

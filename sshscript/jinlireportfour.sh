@@ -63,8 +63,8 @@ DbtabzsUv=` cat ${log_path} | grep '"nm":"GIONEE_BANGO_HELPER_TAB_SHOW"' | uniq 
 DbtabzsUvTB=` cat ${log_path} | grep '"nm":"GIONEE_BANGO_HELPER_TAB_SHOW"' | grep '"eplatform":"1"' | uniq | sort -t ',' -k 3,3 -u | wc -l  `
 DbtabzsUvPDD=` cat ${log_path} | grep '"nm":"GIONEE_BANGO_HELPER_TAB_SHOW"' | grep '"eplatform":"2"' | uniq | sort -t ',' -k 3,3 -u | wc -l  `
 JianfaUv=$(printf "%.3f" `echo "scale=3;$TcxsUv-$TcdhtUv"|bc`)
-JianfalvTB=$(printf "%.3f" `echo "scale=3;$TcxsPvTB-$TcdhtUvTB"|bc`)
-JianfalvPDD=$(printf "%.3f" `echo "scale=3;$TcxsPvPDD-$TcdhtUvPDD"|bc`)
+JianfaUvTB=$(printf "%.3f" `echo "scale=3;$TcxsUvTB-$TcdhtUvTB"|bc`)
+JianfaUvPDD=$(printf "%.3f" `echo "scale=3;$TcxsUvPDD-$TcdhtUvPDD"|bc`)
 Dbtabzslv=$(printf "%.3f" `echo "scale=3;$DbtabzsPv/$JianfaUv"|bc`)
 DbtabzslvTB=$(printf "%.3f" `echo "scale=3;$DbtabzsPvTB/$JianfaUvTB"|bc`)
 DbtabzslvPDD=$(printf "%.3f" `echo "scale=3;$DbtabzsPvPDD/$JianfaUvPDD"|bc`)

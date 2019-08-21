@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/formatlog.iml" filepath="$PROJECT_DIR$/.idea/formatlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/formatlog.iml" filepath="$PROJECT_DIR$/formatlog.iml" />
     </modules>
   </component>
 </project>

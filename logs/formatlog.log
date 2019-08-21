@@ -1,0 +1,1222 @@
+2019/08/21 10:56:48.064 [I] [reportfour.go:38] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build535061310\b001\exe\task.exe)
+2019/08/21 10:56:48.065 [I] [reportfour.go:38] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 10:56:48.065 [I] [reportfour.go:40] 开始执行脚本---ReportFourTask
+2019/08/21 10:56:48.067 [I] [reportfour.go:45] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 10:56:48.074 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.078 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.079 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.082 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.084 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.085 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.089 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.100 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.104 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.112 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.126 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.140 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.148 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.160 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.176 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.188 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.191 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.201 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.207 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.216 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.227 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.230 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.233 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.236 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.239 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.242 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.244 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.245 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.247 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.250 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.256 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.260 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.267 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.277 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.290 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.296 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.306 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.322 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.335 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.343 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.349 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.357 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.362 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.371 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.377 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.381 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.386 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.389 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.393 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.396 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.397 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.398 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.399 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.401 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.408 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.410 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.415 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.423 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.434 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.442 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.452 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.464 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.474 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.483 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.487 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.498 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.511 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.521 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.528 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.531 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.536 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.540 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.542 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.544 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.545 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.546 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.547 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.549 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.557 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.564 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.573 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.587 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.595 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.609 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.621 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.632 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.649 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.653 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.666 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.672 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.681 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.692 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.694 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.697 [I] [common.go:197] File read ok!
+2019/08/21 10:56:48.697 [I] [common.go:206] Read file over!
+2019/08/21 10:56:48.700 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283133_EVENT_GOODS_DETAIL_PV_category_152_62
+2019/08/21 10:56:48.700 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566289504_EVENT_GOODS_DETAIL_PV_category_90_87
+2019/08/21 10:56:48.701 [I] [reportfour.go:104] cf1e1dc59f772f163036a151d54a86c1_1566315601_EVENT_GOODS_DETAIL_PV_category_47_94
+2019/08/21 10:56:48.701 [I] [reportfour.go:104] dcb60690e0e964c0158008b72d1804e4_1566294280_EVENT_GOODS_DETAIL_PV_category_59_17
+2019/08/21 10:56:48.702 [I] [reportfour.go:104] 463481180fc918f3823db5b39561ba0f_1566269819_EVENT_GOODS_DETAIL_PV_category_166_81
+2019/08/21 10:56:48.703 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566298603_EVENT_GOODS_DETAIL_PV_category_214_89
+2019/08/21 10:56:48.705 [I] [reportfour.go:104] f8fa684f06d63656d1cece1035688230_1566237137_EVENT_GOODS_DETAIL_PV_category_56_25
+2019/08/21 10:56:48.706 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293777_EVENT_GOODS_DETAIL_PV_category_40_88
+2019/08/21 10:56:48.707 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566306976_EVENT_GOODS_DETAIL_PV_category_80_69
+2019/08/21 10:56:48.708 [I] [reportfour.go:104] 347eb3300c5f47a55b5a6222f6b297b1_1566270713_EVENT_GOODS_DETAIL_PV_category_41_82
+2019/08/21 10:56:48.709 [I] [reportfour.go:104] 9cd3dba92c8381ec0da17782661a3f40_1566283501_EVENT_GOODS_DETAIL_PV_category_203_38
+2019/08/21 10:56:48.709 [I] [reportfour.go:104] c0d84984f224395c4402ea1fa0a30322_1566305387_EVENT_GOODS_DETAIL_PV_category_104_91
+2019/08/21 10:56:48.710 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283304_EVENT_GOODS_DETAIL_PV_category_173_38
+2019/08/21 10:56:48.710 [I] [reportfour.go:104] 557d130f846e694f2f63db45c513dd7f_1566296191_EVENT_GOODS_DETAIL_PV_category_34_66
+2019/08/21 10:56:48.711 [I] [reportfour.go:104] bfc9b1e9d9b29fdd6e2de94f8943b425_1566271566_EVENT_GOODS_DETAIL_PV_zq_171_59
+2019/08/21 10:56:48.711 [I] [reportfour.go:104] 3486f85a8b6e1161076c4af5932ee3ca_1566268816_EVENT_GOODS_DETAIL_PV_category_131_81
+2019/08/21 10:56:48.712 [I] [reportfour.go:104] 229308ceb641b4bf87ed950ff7c175ca_1566233930_EVENT_GOODS_DETAIL_PV_category_49_24
+2019/08/21 10:56:48.713 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566307327_EVENT_GOODS_DETAIL_PV_category_109_92
+2019/08/21 10:56:48.715 [I] [reportfour.go:104] 5fd93deb1a20bfb1d8ac44021e45caa0_1566268415_EVENT_GOODS_DETAIL_PV_category_104_11
+2019/08/21 10:56:48.715 [I] [reportfour.go:104] e30aa3852772553547082608641a060c_1566271083_EVENT_GOODS_DETAIL_PV_category_88_59
+2019/08/21 10:56:48.716 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283490_EVENT_GOODS_DETAIL_PV_category_184_85
+2019/08/21 10:56:48.717 [I] [reportfour.go:104] cf1e1dc59f772f163036a151d54a86c1_1566315378_EVENT_GOODS_DETAIL_PV_category_62_23
+2019/08/21 10:56:48.718 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566292623_EVENT_GOODS_DETAIL_PV_category_33_17
+2019/08/21 10:56:48.718 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566289836_EVENT_GOODS_DETAIL_PV_category_109_87
+2019/08/21 10:56:48.719 [I] [reportfour.go:104] c7461beee11126e990c1d7f5a5713047_1566297357_EVENT_GOODS_DETAIL_PV_category_145_66
+2019/08/21 10:56:48.721 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566289792_EVENT_GOODS_DETAIL_PV_category_102_64
+2019/08/21 10:56:48.721 [I] [reportfour.go:104] e06b0853bae2ebad2e628e1cf8c07bfe_1566280581_EVENT_GOODS_DETAIL_PV_category_252_37
+2019/08/21 10:56:48.722 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566279311_EVENT_GOODS_DETAIL_PV_category_181_84
+2019/08/21 10:56:48.723 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566296719_EVENT_GOODS_DETAIL_PV_category_58_18
+2019/08/21 10:56:48.725 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293783_EVENT_GOODS_DETAIL_PV_category_41_88
+2019/08/21 10:56:48.725 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566286866_EVENT_GOODS_DETAIL_PV_category_154_86
+2019/08/21 10:56:48.726 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566268863_EVENT_GOODS_DETAIL_PV_category_153_34
+2019/08/21 10:56:48.727 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283007_EVENT_GOODS_DETAIL_PV_category_138_85
+2019/08/21 10:56:48.727 [I] [reportfour.go:104] e06b0853bae2ebad2e628e1cf8c07bfe_1566280341_EVENT_GOODS_DETAIL_PV_category_259_61
+2019/08/21 10:56:48.728 [I] [reportfour.go:104] 0715c16f586a776a0abc9006b5f553a1_1566280313_EVENT_GOODS_DETAIL_PV_category_235_37
+2019/08/21 10:56:48.729 [I] [reportfour.go:104] 172ceaa82cbb66c8d59dd26a85ad9ff9_1566264813_EVENT_GOODS_DETAIL_PV_category_53_10
+2019/08/21 10:56:48.729 [I] [reportfour.go:104] b9a42d0933cfc03addc67604270f8a4b_1566282539_EVENT_GOODS_DETAIL_PV_category_111_62
+2019/08/21 10:56:48.730 [I] [reportfour.go:104] 933774c83661605a9501aed5cdf492eb_1566311678_EVENT_GOODS_DETAIL_PV_category_46_46
+2019/08/21 10:56:48.730 [I] [reportfour.go:104] a8f5abc33e21f4cb5bb6a953cc3e3f3c_1566314087_EVENT_GOODS_DETAIL_PV_category_17_23
+2019/08/21 10:56:48.731 [I] [reportfour.go:104] 0925b59f150e36297cbdebbaeabe07b7_1566289185_EVENT_GOODS_DETAIL_PV_category_82_64
+2019/08/21 10:56:48.731 [I] [reportfour.go:104] cf1e1dc59f772f163036a151d54a86c1_1566315061_EVENT_GOODS_DETAIL_PV_category_44_23
+2019/08/21 10:56:48.732 [I] [reportfour.go:104] 7fc57454069c166380a028fb8e5b3918_1566267039_EVENT_GOODS_DETAIL_PV_category_24_34
+2019/08/21 10:56:48.732 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566309507_EVENT_GOODS_DETAIL_PV_category_199_92
+2019/08/21 10:56:48.733 [I] [reportfour.go:104] 40171dadf833306e819a7b1924f47ed0_1566283673_EVENT_GOODS_DETAIL_PV_category_219_15
+2019/08/21 10:56:48.734 [I] [reportfour.go:104] 172ceaa82cbb66c8d59dd26a85ad9ff9_1566270896_EVENT_GOODS_DETAIL_PV_category_51_59
+2019/08/21 10:56:48.735 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566290437_EVENT_GOODS_DETAIL_PV_category_175_87
+2019/08/21 10:56:48.735 [I] [reportfour.go:104] 557d130f846e694f2f63db45c513dd7f_1566270476_EVENT_GOODS_DETAIL_PV_category_28_59
+2019/08/21 10:56:48.736 [I] [reportfour.go:104] 98b310c88e49b0afce086d542d922a46_1566306798_EVENT_GOODS_DETAIL_PV_category_69_69
+2019/08/21 10:56:48.737 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566280569_EVENT_GOODS_DETAIL_PV_zq_250_37
+2019/08/21 10:56:48.737 [I] [reportfour.go:104] 3486f85a8b6e1161076c4af5932ee3ca_1566268800_EVENT_GOODS_DETAIL_PV_category_147_34
+2019/08/21 10:56:48.738 [I] [reportfour.go:104] 5440c230c6e3d15803071d0193384ca8_1566274924_EVENT_GOODS_DETAIL_PV_category_96_13
+2019/08/21 10:56:48.739 [I] [reportfour.go:104] c0d84984f224395c4402ea1fa0a30322_1566305079_EVENT_GOODS_DETAIL_PV_category_109_20
+2019/08/21 10:56:48.740 [I] [reportfour.go:104] 764357842e1729b47ff9e588263c29cc_1566274936_EVENT_GOODS_DETAIL_PV_category_102_13
+2019/08/21 10:56:48.740 [I] [reportfour.go:104] 3486f85a8b6e1161076c4af5932ee3ca_1566273711_EVENT_GOODS_DETAIL_PV_category_28_60
+2019/08/21 10:56:48.744 [I] [reportfour.go:104] cf1e1dc59f772f163036a151d54a86c1_1566316109_EVENT_GOODS_DETAIL_PV_category_66_47
+2019/08/21 10:56:48.745 [I] [reportfour.go:104] c7461beee11126e990c1d7f5a5713047_1566297400_EVENT_GOODS_DETAIL_PV_category_165_18
+2019/08/21 10:56:48.746 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566271363_EVENT_GOODS_DETAIL_PV_category_130_59
+2019/08/21 10:56:48.747 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566307929_EVENT_GOODS_DETAIL_PV_category_163_45
+2019/08/21 10:56:48.753 [I] [reportfour.go:104] 5fd93deb1a20bfb1d8ac44021e45caa0_1566268390_EVENT_GOODS_DETAIL_PV_category_88_81
+2019/08/21 10:56:48.754 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566285915_EVENT_GOODS_DETAIL_PV_category_97_16
+2019/08/21 10:56:48.759 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566285953_EVENT_GOODS_DETAIL_PV_category_99_39
+2019/08/21 10:56:48.776 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566289822_EVENT_GOODS_DETAIL_PV_category_90_40
+2019/08/21 10:56:48.777 [I] [reportfour.go:104] b9a42d0933cfc03addc67604270f8a4b_1566282468_EVENT_GOODS_DETAIL_PV_category_106_62
+2019/08/21 10:56:48.780 [I] [reportfour.go:104] e1831f1aed96f4906450dae172a122bf_1566274029_EVENT_GOODS_DETAIL_PV_category_48_13
+2019/08/21 10:56:48.781 [I] [reportfour.go:104] c7461beee11126e990c1d7f5a5713047_1566297165_EVENT_GOODS_DETAIL_PV_category_124_42
+2019/08/21 10:56:48.781 [I] [reportfour.go:104] aaeadc7b5cc1d37cbb170da19fe0d5bf_1566302528_EVENT_GOODS_DETAIL_PV_category_4_91
+2019/08/21 10:56:48.782 [I] [reportfour.go:104] 40171dadf833306e819a7b1924f47ed0_1566252610_EVENT_GOODS_DETAIL_PV_category_6_54
+2019/08/21 10:56:48.783 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566263726_EVENT_GOODS_DETAIL_PV_category_23_10
+2019/08/21 10:56:48.784 [I] [reportfour.go:104] e06b0853bae2ebad2e628e1cf8c07bfe_1566304403_EVENT_GOODS_DETAIL_PV_category_74_20
+2019/08/21 10:56:48.785 [I] [reportfour.go:104] b317088bc9ee54d8014325dc63050622_1566284804_EVENT_GOODS_DETAIL_PV_category_27_86
+2019/08/21 10:56:48.785 [I] [reportfour.go:104] 40ff6c708858dc802c2998142567f816_1566278992_EVENT_GOODS_DETAIL_PV_category_144_61
+2019/08/21 10:56:48.787 [I] [reportfour.go:104] 7f52bc2c414dc68897bd35043f6a689f_1566276480_EVENT_GOODS_DETAIL_PV_category_153_83
+2019/08/21 10:56:48.788 [I] [reportfour.go:104] 16c1de5854a225f5a534e28afbc841d5_1566278995_EVENT_GOODS_DETAIL_PV_category_151_14
+2019/08/21 10:56:48.789 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566281389_EVENT_GOODS_DETAIL_PV_zq_40_15
+2019/08/21 10:56:48.791 [I] [reportfour.go:104] b9a42d0933cfc03addc67604270f8a4b_1566282223_EVENT_GOODS_DETAIL_PV_category_67_85
+2019/08/21 10:56:48.791 [I] [reportfour.go:104] 40171dadf833306e819a7b1924f47ed0_1566283907_EVENT_GOODS_DETAIL_PV_category_288_62
+2019/08/21 10:56:48.792 [I] [reportfour.go:104] 0925b59f150e36297cbdebbaeabe07b7_1566266111_EVENT_GOODS_DETAIL_PV_category_113_57
+2019/08/21 10:56:48.793 [I] [reportfour.go:104] 5ea85051af66bd2b8af21d7037cdc6f4_1566297061_EVENT_GOODS_DETAIL_PV_category_96_18
+2019/08/21 10:56:48.794 [I] [reportfour.go:104] 3486f85a8b6e1161076c4af5932ee3ca_1566268896_EVENT_GOODS_DETAIL_PV_category_163_34
+2019/08/21 10:56:48.794 [I] [reportfour.go:104] e06b0853bae2ebad2e628e1cf8c07bfe_1566280824_EVENT_GOODS_DETAIL_PV_category_2_15
+2019/08/21 10:56:48.795 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566286103_EVENT_GOODS_DETAIL_PV_category_112_39
+2019/08/21 10:56:48.796 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566300967_EVENT_GOODS_DETAIL_PV_category_34_90
+2019/08/21 10:56:48.797 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566300772_EVENT_GOODS_DETAIL_PV_category_34_43
+2019/08/21 10:56:48.798 [I] [reportfour.go:104] 0715c16f586a776a0abc9006b5f553a1_1566280129_EVENT_GOODS_DETAIL_PV_category_241_84
+2019/08/21 10:56:48.799 [I] [reportfour.go:104] c0d84984f224395c4402ea1fa0a30322_1566305872_EVENT_GOODS_DETAIL_PV_category_147_91
+2019/08/21 10:56:48.799 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293846_EVENT_GOODS_DETAIL_PV_category_55_65
+2019/08/21 10:56:48.800 [I] [reportfour.go:104] 0715c16f586a776a0abc9006b5f553a1_1566280256_EVENT_GOODS_DETAIL_PV_category_250_84
+2019/08/21 10:56:48.800 [I] [reportfour.go:104] e06b0853bae2ebad2e628e1cf8c07bfe_1566280599_EVENT_GOODS_DETAIL_PV_category_281_61
+2019/08/21 10:56:48.804 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566285964_EVENT_GOODS_DETAIL_PV_category_119_63
+2019/08/21 10:56:48.805 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566306755_EVENT_GOODS_DETAIL_PV_category_66_69
+2019/08/21 10:56:48.821 [I] [reportfour.go:104] 40ff6c708858dc802c2998142567f816_1566260896_EVENT_GOODS_DETAIL_PV_category_27_9
+2019/08/21 10:56:48.822 [I] [reportfour.go:104] 764357842e1729b47ff9e588263c29cc_1566283554_EVENT_GOODS_DETAIL_PV_category_212_38
+2019/08/21 10:56:48.824 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566286315_EVENT_GOODS_DETAIL_PV_category_135_16
+2019/08/21 10:56:48.825 [I] [reportfour.go:104] d837393f4dbe8c2cb2676b3994938780_1566304704_EVENT_GOODS_DETAIL_PV_category_97_20
+2019/08/21 10:56:48.826 [I] [reportfour.go:104] c7461beee11126e990c1d7f5a5713047_1566308018_EVENT_GOODS_DETAIL_PV_category_184_21
+2019/08/21 10:56:48.828 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566290285_EVENT_GOODS_DETAIL_PV_category_150_64
+2019/08/21 10:56:48.833 [I] [reportfour.go:104] bfc9b1e9d9b29fdd6e2de94f8943b425_1566271447_EVENT_GOODS_DETAIL_PV_category_141_35
+2019/08/21 10:56:48.841 [I] [reportfour.go:104] 557d130f846e694f2f63db45c513dd7f_1566296311_EVENT_GOODS_DETAIL_PV_category_40_18
+2019/08/21 10:56:48.842 [I] [reportfour.go:104] c0d84984f224395c4402ea1fa0a30322_1566306185_EVENT_GOODS_DETAIL_PV_category_19_21
+2019/08/21 10:56:48.844 [I] [reportfour.go:104] e1831f1aed96f4906450dae172a122bf_1566274009_EVENT_GOODS_DETAIL_PV_category_41_83
+2019/08/21 10:56:48.846 [I] [reportfour.go:104] 764357842e1729b47ff9e588263c29cc_1566283821_EVENT_GOODS_DETAIL_PV_category_249_62
+2019/08/21 10:56:48.847 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566255956_EVENT_GOODS_DETAIL_PV_category_21_55
+2019/08/21 10:56:48.848 [I] [reportfour.go:104] 0715c16f586a776a0abc9006b5f553a1_1566280018_EVENT_GOODS_DETAIL_PV_category_234_61
+2019/08/21 10:56:48.849 [I] [reportfour.go:104] 9cd3dba92c8381ec0da17782661a3f40_1566283948_EVENT_GOODS_DETAIL_PV_category_294_62
+2019/08/21 10:56:48.850 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566306793_EVENT_GOODS_DETAIL_PV_category_60_92
+2019/08/21 10:56:48.851 [I] [reportfour.go:104] 40171dadf833306e819a7b1924f47ed0_1566283399_EVENT_GOODS_DETAIL_PV_category_170_85
+2019/08/21 10:56:48.852 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283857_EVENT_GOODS_DETAIL_PV_category_260_62
+2019/08/21 10:56:48.852 [I] [reportfour.go:104] 3486f85a8b6e1161076c4af5932ee3ca_1566277771_EVENT_GOODS_DETAIL_PV_category_59_84
+2019/08/21 10:56:48.853 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293746_EVENT_GOODS_DETAIL_PV_category_37_41
+2019/08/21 10:56:48.854 [I] [reportfour.go:104] 16c1de5854a225f5a534e28afbc841d5_1566279359_EVENT_GOODS_DETAIL_PV_category_194_61
+2019/08/21 10:56:48.854 [I] [reportfour.go:104] 764357842e1729b47ff9e588263c29cc_1566283914_EVENT_GOODS_DETAIL_PV_category_284_85
+2019/08/21 10:56:48.855 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566273285_EVENT_GOODS_DETAIL_PV_zq_266_82
+2019/08/21 10:56:48.855 [I] [reportfour.go:104] ff795e157d56eb541ba6027b092a4725_1566295208_EVENT_GOODS_DETAIL_PV_zq_3_42
+2019/08/21 10:56:48.856 [I] [reportfour.go:104] 5ea85051af66bd2b8af21d7037cdc6f4_1566306337_EVENT_GOODS_DETAIL_PV_category_32_45
+2019/08/21 10:56:48.857 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566281141_EVENT_GOODS_DETAIL_PV_category_20_85
+2019/08/21 10:56:48.857 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566270017_EVENT_GOODS_DETAIL_PV_category_4_35
+2019/08/21 10:56:48.858 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566300750_EVENT_GOODS_DETAIL_PV_category_26_90
+2019/08/21 10:56:48.859 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566270849_EVENT_GOODS_DETAIL_PV_category_71_82
+2019/08/21 10:56:48.859 [I] [reportfour.go:104] 9c56948ea175285e19c89d6c11544ec2_1566271216_EVENT_GOODS_DETAIL_PV_category_118_12
+2019/08/21 10:56:48.860 [I] [reportfour.go:104] 557d130f846e694f2f63db45c513dd7f_1566270289_EVENT_GOODS_DETAIL_PV_category_40_12
+2019/08/21 10:56:48.861 [I] [reportfour.go:104] 27ee361b32e58fbae6eedbb36f528651_1566266173_EVENT_GOODS_DETAIL_PV_category_122_57
+2019/08/21 10:56:48.862 [I] [reportfour.go:104] bfc9b1e9d9b29fdd6e2de94f8943b425_1566296840_EVENT_GOODS_DETAIL_PV_category_63_66
+2019/08/21 10:56:48.863 [I] [reportfour.go:104] aaeadc7b5cc1d37cbb170da19fe0d5bf_1566286989_EVENT_GOODS_DETAIL_PV_category_178_86
+2019/08/21 10:56:48.863 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566290120_EVENT_GOODS_DETAIL_PV_category_128_64
+2019/08/21 10:56:48.864 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293766_EVENT_GOODS_DETAIL_PV_category_46_65
+2019/08/21 10:56:48.865 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283063_EVENT_GOODS_DETAIL_PV_category_148_62
+2019/08/21 10:56:48.865 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566270851_EVENT_GOODS_DETAIL_PV_category_53_35
+2019/08/21 10:56:48.866 [I] [reportfour.go:104] 2c4f733000307b656502245ad849ba45_1566301032_EVENT_GOODS_DETAIL_PV_category_47_90
+2019/08/21 10:56:48.867 [I] [reportfour.go:104] aaeadc7b5cc1d37cbb170da19fe0d5bf_1566286155_EVENT_GOODS_DETAIL_PV_category_134_63
+2019/08/21 10:56:48.868 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566286964_EVENT_GOODS_DETAIL_PV_category_184_39
+2019/08/21 10:56:48.868 [I] [reportfour.go:104] 3c9cb580e38cd17e124b0cd81c825802_1566283895_EVENT_GOODS_DETAIL_PV_category_279_15
+2019/08/21 10:56:48.869 [I] [reportfour.go:104] 5440c230c6e3d15803071d0193384ca8_1566274881_EVENT_GOODS_DETAIL_PV_category_101_36
+2019/08/21 10:56:48.875 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566294457_EVENT_GOODS_DETAIL_PV_category_60_41
+2019/08/21 10:56:48.888 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566301025_EVENT_GOODS_DETAIL_PV_category_45_90
+2019/08/21 10:56:48.907 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566286448_EVENT_GOODS_DETAIL_PV_category_119_86
+2019/08/21 10:56:48.912 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566270863_EVENT_GOODS_DETAIL_PV_category_74_82
+2019/08/21 10:56:48.930 [I] [reportfour.go:104] 5ea85051af66bd2b8af21d7037cdc6f4_1566297230_EVENT_GOODS_DETAIL_PV_zq_138_66
+2019/08/21 10:56:48.935 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566263702_EVENT_GOODS_DETAIL_PV_category_13_80
+2019/08/21 10:56:48.942 [I] [reportfour.go:104] e1831f1aed96f4906450dae172a122bf_1566274030_EVENT_GOODS_DETAIL_PV_category_49_13
+2019/08/21 10:56:48.943 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566271239_EVENT_GOODS_DETAIL_PV_category_99_59
+2019/08/21 10:56:48.945 [I] [reportfour.go:104] 0925b59f150e36297cbdebbaeabe07b7_1566266172_EVENT_GOODS_DETAIL_PV_category_121_57
+2019/08/21 10:56:48.964 [I] [reportfour.go:104] c0d84984f224395c4402ea1fa0a30322_1566305388_EVENT_GOODS_DETAIL_PV_category_108_68
+2019/08/21 10:56:48.999 [I] [reportfour.go:104] 4f5c77564dabb69afb88d29f1dd138c3_1566285074_EVENT_GOODS_DETAIL_PV_category_38_39
+2019/08/21 10:56:49.000 [I] [reportfour.go:104] 095bd7eac779ea383a2dfa419f959290_1566298534_EVENT_GOODS_DETAIL_PV_category_186_66
+2019/08/21 10:56:49.002 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566270794_EVENT_GOODS_DETAIL_PV_category_47_35
+2019/08/21 10:56:49.002 [I] [reportfour.go:104] c8b153f2bf4bfb0d683dc01c230e2e42_1566296881_EVENT_GOODS_DETAIL_PV_category_77_42
+2019/08/21 10:56:49.003 [I] [reportfour.go:104] bfc9b1e9d9b29fdd6e2de94f8943b425_1566271550_EVENT_GOODS_DETAIL_PV_zq_189_82
+2019/08/21 10:56:49.009 [I] [reportfour.go:104] 095bd7eac779ea383a2dfa419f959290_1566298472_EVENT_GOODS_DETAIL_PV_category_206_89
+2019/08/21 10:56:49.010 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566270779_EVENT_GOODS_DETAIL_PV_category_56_12
+2019/08/21 10:56:49.011 [I] [reportfour.go:104] 311cbdab003c2616821142ad5eada3bb_1566306658_EVENT_GOODS_DETAIL_PV_category_73_21
+2019/08/21 10:56:49.011 [I] [reportfour.go:104] 0d87f814463f49d4dcde13aed21650fc_1566267168_EVENT_GOODS_DETAIL_PV_category_38_11
+2019/08/21 10:56:49.013 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293824_EVENT_GOODS_DETAIL_PV_category_51_65
+2019/08/21 10:56:49.013 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566300868_EVENT_GOODS_DETAIL_PV_category_33_67
+2019/08/21 10:56:49.014 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566293772_EVENT_GOODS_DETAIL_PV_category_44_17
+2019/08/21 10:56:49.015 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566282406_EVENT_GOODS_DETAIL_PV_category_95_62
+2019/08/21 10:56:49.016 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566290119_EVENT_GOODS_DETAIL_PV_category_116_40
+2019/08/21 10:56:49.017 [I] [reportfour.go:104] 7fc57454069c166380a028fb8e5b3918_1566267174_EVENT_GOODS_DETAIL_PV_category_45_58
+2019/08/21 10:56:49.018 [I] [reportfour.go:104] 01a5cf78dc044a4b69cb03c58b136a07_1566286191_EVENT_GOODS_DETAIL_PV_category_124_16
+2019/08/21 10:56:49.019 [I] [reportfour.go:104] bb0faa42070e3316181dcdbfd640fea9_1566273743_EVENT_GOODS_DETAIL_PV_category_32_60
+2019/08/21 10:56:49.020 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566286331_EVENT_GOODS_DETAIL_PV_category_155_63
+2019/08/21 10:56:49.023 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566289773_EVENT_GOODS_DETAIL_PV_category_101_64
+2019/08/21 10:56:49.026 [I] [reportfour.go:104] 200ed14c72e12923cc90d1d33076a4ff_1566290079_EVENT_GOODS_DETAIL_PV_category_138_87
+2019/08/21 10:56:49.034 [I] [reportfour.go:104] c7461beee11126e990c1d7f5a5713047_1566297659_EVENT_GOODS_DETAIL_PV_category_192_89
+2019/08/21 10:56:49.035 [I] [reportfour.go:104] 5ea85051af66bd2b8af21d7037cdc6f4_1566296338_EVENT_GOODS_DETAIL_PV_category_38_66
+2019/08/21 10:56:49.036 [I] [reportfour.go:104] 65d014305904c4bfcd3943ef85ec036d_1566287085_EVENT_GOODS_DETAIL_PV_category_199_16
+2019/08/21 10:56:49.037 [I] [reportfour.go:104] 16596808f65045046f27771d052f560a_1566299154_EVENT_GOODS_DETAIL_PV_category_3_90
+2019/08/21 10:56:49.039 [I] [reportfour.go:104] 5ea85051af66bd2b8af21d7037cdc6f4_1566289585_EVENT_GOODS_DETAIL_PV_category_95_64
+2019/08/21 10:56:49.040 [I] [reportfour.go:104] 9a329a35fc9d6c991a8d03f5beccf8bc_1566296048_EVENT_GOODS_DETAIL_PV_category_27_18
+2019/08/21 10:56:49.044 [I] [reportfour.go:104] 172ceaa82cbb66c8d59dd26a85ad9ff9_1566292189_EVENT_GOODS_DETAIL_PV_category_22_41
+2019/08/21 10:56:49.046 [I] [reportfour.go:104] ff795e157d56eb541ba6027b092a4725_1566290662_EVENT_GOODS_DETAIL_PV_zq_200_87
+2019/08/21 10:56:49.047 [I] [reportfour.go:104] b9a42d0933cfc03addc67604270f8a4b_1566282389_EVENT_GOODS_DETAIL_PV_category_84_85
+2019/08/21 10:56:49.047 [I] [reportfour.go:104] 98b310c88e49b0afce086d542d922a46_1566305854_EVENT_GOODS_DETAIL_PV_category_157_44
+2019/08/21 10:56:49.048 [I] [reportfour.go:104] 0925b59f150e36297cbdebbaeabe07b7_1566288564_EVENT_GOODS_DETAIL_PV_category_13_40
+2019/08/21 10:56:49.049 [I] [reportfour.go:104] 40171dadf833306e819a7b1924f47ed0_1566283743_EVENT_GOODS_DETAIL_PV_category_222_62
+2019/08/21 10:56:49.050 [I] [reportfour.go:104] a145d1f596165fb967a13d3834e3661f_1566282108_EVENT_GOODS_DETAIL_PV_category_58_38
+2019/08/21 10:56:49.050 [I] [reportfour.go:104] 0925b59f150e36297cbdebbaeabe07b7_1566288728_EVENT_GOODS_DETAIL_PV_category_49_64
+2019/08/21 10:56:49.051 [I] [reportfour.go:104] 557d130f846e694f2f63db45c513dd7f_1566270203_EVENT_GOODS_DETAIL_PV_category_26_12
+2019/08/21 10:56:49.052 [I] [reportfour.go:104] 463481180fc918f3823db5b39561ba0f_1566299223_EVENT_GOODS_DETAIL_PV_category_13_67
+2019/08/21 12:26:51.078 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 12:26:51.078 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build790367650\b001\exe\task.exe)
+2019/08/21 12:26:51.078 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 12:26:51.079 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 12:26:51.079 [W] [common.go:131] 是目录
+2019/08/21 12:26:51.080 [I] [common.go:206] Read file over!
+2019/08/21 12:33:30.041 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 12:33:30.041 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build039007386\b001\exe\task.exe)
+2019/08/21 12:33:30.042 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 12:33:30.042 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 12:33:30.042 [W] [common.go:131] 是目录
+2019/08/21 12:33:30.043 [I] [common.go:206] Read file over!
+2019/08/21 14:30:34.525 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 14:30:34.526 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build208361830\b001\exe\task.exe)
+2019/08/21 14:30:34.528 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 14:30:34.530 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 14:30:34.532 [W] [common.go:131] 是目录
+2019/08/21 14:30:34.532 [I] [common.go:206] Read file over!
+2019/08/21 14:32:21.836 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 14:32:21.837 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build066489218\b001\exe\task.exe)
+2019/08/21 14:32:21.837 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 14:32:21.838 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 14:32:21.839 [W] [common.go:131] 是目录
+2019/08/21 14:32:21.839 [I] [common.go:206] Read file over!
+2019/08/21 14:41:23.727 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 14:41:23.728 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build175377702\b001\exe\task.exe)
+2019/08/21 14:41:23.728 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 14:41:23.729 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 14:41:23.730 [W] [common.go:131] 是目录
+2019/08/21 14:41:23.730 [I] [common.go:206] Read file over!
+2019/08/21 14:44:12.071 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 14:44:12.071 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build310653994\b001\exe\task.exe)
+2019/08/21 14:44:12.071 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 14:44:12.071 [I] [reportfour.go:51] logUrl:%!(EXTRA string=./zheng_shihui/)
+2019/08/21 14:44:12.072 [W] [common.go:131] 是目录
+2019/08/21 14:44:12.072 [I] [common.go:206] Read file over!
+2019/08/21 14:44:12.142 [I] [reportfour.go:65] vvv%!(EXTRA int=33333)
+2019/08/21 14:54:29.996 [I] [reportfour.go:39] 开始执行脚本---ReportFourTask
+2019/08/21 14:54:29.996 [I] [reportfour.go:42] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build323039974\b001\exe\task.exe)
+2019/08/21 14:54:29.997 [I] [reportfour.go:42] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 14:54:29.997 [I] [reportfour.go:55] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 14:54:30.001 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.002 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.003 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.004 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.004 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.005 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.006 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.009 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.012 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.015 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.020 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.025 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.029 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.036 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.043 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.048 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.050 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.054 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.057 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.061 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.066 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.070 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.072 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.075 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.078 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.079 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.080 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.081 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.082 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.083 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.087 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.089 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.092 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.097 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.102 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.111 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.116 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.122 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.128 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.135 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.136 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.140 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.143 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.147 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.151 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.152 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.154 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.155 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.157 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.158 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.160 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.160 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.161 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.162 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.165 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.166 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.169 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.175 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.181 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.184 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.190 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.196 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.203 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.207 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.209 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.217 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.219 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.223 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.230 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.231 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.233 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.234 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.236 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.237 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.237 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.238 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.239 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.240 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.244 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.247 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.250 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.256 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.259 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.264 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.270 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.276 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.281 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.283 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.287 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.289 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.295 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.299 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.301 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.303 [I] [common.go:197] File read ok!
+2019/08/21 14:54:30.303 [I] [common.go:206] Read file over!
+2019/08/21 14:54:30.389 [I] [reportfour.go:65] ssssff%!(EXTRA []ebeasy.Goods_info=[])
+2019/08/21 14:54:30.390 [I] [reportfour.go:70] vvv%!(EXTRA int=33333)
+2019/08/21 15:44:02.527 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 15:44:02.527 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build330912974\b001\exe\task.exe)
+2019/08/21 15:44:02.527 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 15:44:02.528 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 15:44:02.532 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.534 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.535 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.535 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.536 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.536 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.538 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.541 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.545 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.549 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.553 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.559 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.564 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.569 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.577 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.581 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.585 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.588 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.591 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.595 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.599 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.600 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.602 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.604 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.606 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.607 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.609 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.612 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.612 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.614 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.616 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.618 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.621 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.625 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.630 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.634 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.639 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.645 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.650 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.655 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.660 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.664 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.667 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.672 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.676 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.678 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.679 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.681 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.683 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.684 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.685 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.685 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.686 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.687 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.690 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.691 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.694 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.698 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.704 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.711 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.718 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.723 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.729 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.733 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.738 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.741 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.746 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.751 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.755 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.756 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.758 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.760 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.762 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.766 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.766 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.767 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.768 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.769 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.772 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.775 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.779 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.785 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.788 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.794 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.801 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.806 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.811 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.813 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.818 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.820 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.824 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.828 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.832 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.834 [I] [common.go:197] File read ok!
+2019/08/21 15:44:02.834 [I] [common.go:206] Read file over!
+2019/08/21 16:26:58.931 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 16:26:58.932 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build302228250\b001\exe\task.exe)
+2019/08/21 16:26:58.932 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 16:26:58.932 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 16:26:58.936 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.937 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.938 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.939 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.939 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.940 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.941 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.945 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.946 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.949 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.956 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.961 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.966 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.971 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.979 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.985 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.987 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.991 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.993 [I] [common.go:197] File read ok!
+2019/08/21 16:26:58.997 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.002 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.003 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.005 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.006 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.012 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.013 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.014 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.015 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.015 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.017 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.020 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.021 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.024 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.028 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.034 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.037 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.042 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.048 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.053 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.058 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.060 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.067 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.069 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.073 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.082 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.084 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.086 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.087 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.089 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.090 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.091 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.091 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.092 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.093 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.096 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.097 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.101 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.109 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.115 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.118 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.125 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.132 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.140 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.145 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.147 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.151 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.156 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.160 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.164 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.165 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.167 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.169 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.175 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.176 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.176 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.177 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.177 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.178 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.181 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.184 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.188 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.193 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.196 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.203 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.210 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.215 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.220 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.222 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.226 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.229 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.235 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.240 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.241 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.243 [I] [common.go:197] File read ok!
+2019/08/21 16:26:59.243 [I] [common.go:206] Read file over!
+2019/08/21 16:28:42.359 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 16:28:42.359 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build797480262\b001\exe\task.exe)
+2019/08/21 16:28:42.360 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 16:28:42.360 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 16:28:42.364 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.365 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.366 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.367 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.368 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.368 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.370 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.372 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.374 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.381 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.385 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.390 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.395 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.402 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.408 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.412 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.414 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.419 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.423 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.427 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.431 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.432 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.434 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.437 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.439 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.440 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.441 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.443 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.446 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.447 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.450 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.451 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.454 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.459 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.464 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.468 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.473 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.480 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.485 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.491 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.493 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.497 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.500 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.507 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.511 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.512 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.514 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.516 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.518 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.519 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.519 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.520 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.521 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.522 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.524 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.525 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.529 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.537 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.543 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.547 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.553 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.559 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.568 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.572 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.578 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.583 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.585 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.589 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.593 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.594 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.597 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.602 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.604 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.605 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.605 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.606 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.607 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.608 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.611 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.614 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.617 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.623 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.626 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.636 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.642 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.647 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.652 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.654 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.659 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.662 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.666 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.670 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.671 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.673 [I] [common.go:197] File read ok!
+2019/08/21 16:28:42.673 [I] [common.go:206] Read file over!
+2019/08/21 16:38:41.409 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 16:38:41.409 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build225335710\b001\exe\task.exe)
+2019/08/21 16:38:41.410 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 16:38:41.410 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 16:38:41.414 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.416 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.421 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.421 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.422 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.423 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.424 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.428 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.429 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.433 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.437 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.443 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.447 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.454 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.464 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.469 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.471 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.475 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.478 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.481 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.486 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.492 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.494 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.496 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.498 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.500 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.501 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.501 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.502 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.503 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.506 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.508 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.512 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.517 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.525 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.529 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.534 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.540 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.546 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.554 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.560 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.564 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.567 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.570 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.574 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.575 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.582 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.584 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.585 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.586 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.587 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.587 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.588 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.589 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.592 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.593 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.597 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.602 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.608 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.615 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.621 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.627 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.633 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.638 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.643 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.651 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.654 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.660 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.664 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.665 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.667 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.674 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.675 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.676 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.677 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.677 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.678 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.680 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.683 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.686 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.689 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.695 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.698 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.707 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.713 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.718 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.724 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.726 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.730 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.735 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.738 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.742 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.744 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.746 [I] [common.go:197] File read ok!
+2019/08/21 16:38:41.746 [I] [common.go:206] Read file over!
+2019/08/21 16:41:46.702 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 16:41:46.702 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build500431066\b001\exe\task.exe)
+2019/08/21 16:41:46.702 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 16:41:46.703 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 16:41:46.707 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.710 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.711 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.712 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.712 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.713 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.715 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.718 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.719 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.723 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.727 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.732 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.735 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.745 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.752 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.757 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.758 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.762 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.765 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.771 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.776 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.777 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.779 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.781 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.785 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.786 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.787 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.787 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.788 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.789 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.792 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.793 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.796 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.806 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.811 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.815 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.820 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.826 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.837 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.843 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.845 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.849 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.852 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.855 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.859 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.864 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.866 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.868 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.870 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.871 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.871 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.872 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.872 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.873 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.876 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.877 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.881 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.885 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.891 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.898 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.904 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.910 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.915 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.920 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.926 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.934 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.936 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.941 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.945 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.946 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.948 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.951 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.957 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.958 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.959 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.959 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.960 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.961 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.964 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.966 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.971 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.976 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.980 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.985 [I] [common.go:197] File read ok!
+2019/08/21 16:41:46.994 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.000 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.005 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.007 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.011 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.017 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.022 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.026 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.028 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.031 [I] [common.go:197] File read ok!
+2019/08/21 16:41:47.031 [I] [common.go:206] Read file over!
+2019/08/21 16:41:47.123 [I] [reportfour.go:73] sssff%!(EXTRA int=0)
+2019/08/21 16:41:47.123 [I] [reportfour.go:74] sssbb%!(EXTRA ebeasy.Goods_info={100000 551937393755 实木简易多层鞋架多功能鞋柜 1 0.00 25.80 10.00 3.48 0 https://gd4.alicdn.com/imgextra/i3/1895787198/TB2.FEBjNTI8KJjSspiXXbM4FXa_!!1895787198.jpg_310x310.jpg})
+2019/08/21 16:41:47.124 [I] [reportfour.go:79] sss%!(EXTRA int=111)
+2019/08/21 16:42:41.613 [I] [reportfour.go:41] 开始执行脚本---ReportFourTask
+2019/08/21 16:42:41.614 [I] [reportfour.go:44] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build497511154\b001\exe\task.exe)
+2019/08/21 16:42:41.614 [I] [reportfour.go:44] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 16:42:41.614 [I] [reportfour.go:57] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 16:42:41.618 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.619 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.620 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.621 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.621 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.622 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.624 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.627 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.628 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.631 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.641 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.646 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.650 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.655 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.663 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.672 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.674 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.678 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.680 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.684 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.688 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.690 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.692 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.693 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.701 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.703 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.704 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.704 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.705 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.706 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.710 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.711 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.714 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.718 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.723 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.730 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.735 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.741 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.746 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.751 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.753 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.758 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.764 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.767 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.771 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.773 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.774 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.776 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.778 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.778 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.779 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.780 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.780 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.781 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.784 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.785 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.789 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.796 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.802 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.806 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.812 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.817 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.828 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.833 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.835 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.839 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.841 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.850 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.858 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.860 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.861 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.863 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.865 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.866 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.866 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.867 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.868 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.869 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.873 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.876 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.881 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.891 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.895 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.901 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.906 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.911 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.922 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.924 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.929 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.931 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.934 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.938 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.940 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.942 [I] [common.go:197] File read ok!
+2019/08/21 16:42:41.948 [I] [common.go:206] Read file over!
+2019/08/21 16:42:42.042 [I] [reportfour.go:73] sssff%!(EXTRA int=0)
+2019/08/21 16:42:42.042 [I] [reportfour.go:74] sssbb%!(EXTRA string=实木简易多层鞋架多功能鞋柜)
+2019/08/21 16:42:42.043 [I] [reportfour.go:79] sss%!(EXTRA int=111)
+2019/08/21 18:41:05.765 [I] [reportfour.go:27] 开始执行脚本---ReportFourTask
+2019/08/21 18:41:05.768 [I] [reportfour.go:30] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build016844530\b001\exe\task.exe)
+2019/08/21 18:41:05.768 [I] [reportfour.go:30] 参数1:%!(EXTRA string=1111,2222)
+2019/08/21 18:41:05.768 [I] [reportfour.go:43] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 18:41:05.772 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.773 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.774 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.775 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.776 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.777 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.778 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.781 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.783 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.786 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.790 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.796 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.803 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.810 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.817 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.822 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.825 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.836 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.839 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.843 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.848 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.850 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.852 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.855 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.860 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.865 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.865 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.866 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.867 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.869 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.873 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.875 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.878 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.884 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.889 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.898 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.903 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.909 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.914 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.921 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.927 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.932 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.934 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.939 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.943 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.944 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.946 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.948 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.950 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.953 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.957 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.958 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.958 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.959 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.962 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.963 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.967 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.971 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.977 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.981 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.993 [I] [common.go:197] File read ok!
+2019/08/21 18:41:05.999 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.004 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.009 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.011 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.018 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.021 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.025 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.029 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.030 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.032 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.034 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.036 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.036 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.037 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.038 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.038 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.040 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.043 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.050 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.054 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.060 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.063 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.068 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.075 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.086 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.092 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.094 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.101 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.104 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.108 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.117 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.119 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.121 [I] [common.go:197] File read ok!
+2019/08/21 18:41:06.121 [I] [common.go:206] Read file over!
+2019/08/21 18:42:38.812 [I] [reportfour.go:27] 开始执行脚本---ReportFourTask
+2019/08/21 18:42:38.812 [I] [reportfour.go:30] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build373788502\b001\exe\task.exe)
+2019/08/21 18:42:38.816 [I] [reportfour.go:43] logUrl:%!(EXTRA string=./zheng_shihui/20190820)
+2019/08/21 18:42:38.836 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.850 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.851 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.852 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.853 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.854 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.858 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.863 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.865 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.871 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.878 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.887 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.890 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.899 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.905 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.910 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.915 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.918 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.921 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.926 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.930 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.931 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.933 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.937 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.938 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.945 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.946 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.947 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.947 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.949 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.952 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.954 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.956 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.961 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.967 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.971 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.981 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.987 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.993 [I] [common.go:197] File read ok!
+2019/08/21 18:42:38.999 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.001 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.012 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.014 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.018 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.022 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.023 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.025 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.027 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.029 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.030 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.030 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.031 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.032 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.033 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.043 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.045 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.048 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.053 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.058 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.062 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.068 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.078 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.084 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.089 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.091 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.099 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.107 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.110 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.115 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.116 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.118 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.120 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.121 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.122 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.123 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.124 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.126 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.127 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.130 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.139 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.143 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.149 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.153 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.159 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.165 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.170 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.176 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.180 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.185 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.187 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.190 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.195 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.196 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.198 [I] [common.go:197] File read ok!
+2019/08/21 18:42:39.198 [I] [common.go:206] Read file over!
+2019/08/21 18:43:03.581 [I] [reportfour.go:27] 开始执行脚本---ReportFourTask
+2019/08/21 18:43:03.582 [I] [reportfour.go:30] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build021933582\b001\exe\task.exe)
+2019/08/21 18:43:03.583 [I] [reportfour.go:30] 参数1:%!(EXTRA string=111)
+2019/08/21 18:43:03.584 [I] [reportfour.go:30] 参数2:%!(EXTRA string=20190817)
+2019/08/21 18:43:03.585 [I] [reportfour.go:43] logUrl:%!(EXTRA string=./zheng_shihui/20190817)
+2019/08/21 18:43:15.440 [I] [reportfour.go:27] 开始执行脚本---ReportFourTask
+2019/08/21 18:43:15.440 [I] [reportfour.go:30] 参数0:%!(EXTRA string=C:\Users\glksgg\AppData\Local\Temp\go-build268514394\b001\exe\task.exe)
+2019/08/21 18:43:15.441 [I] [reportfour.go:30] 参数1:%!(EXTRA string=111)
+2019/08/21 18:43:15.442 [I] [reportfour.go:30] 参数2:%!(EXTRA string=20190815)
+2019/08/21 18:43:15.442 [I] [reportfour.go:43] logUrl:%!(EXTRA string=./zheng_shihui/20190815)

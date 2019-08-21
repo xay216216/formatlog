@@ -20,4 +20,6 @@ zheng_shihui/
 jinli_qingdianshang/
 logs/
 log/
+worklog/
+venv/
 .deploy*/
