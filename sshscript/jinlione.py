@@ -59,8 +59,8 @@ spark = SparkSession \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
 
-df = spark.read.format("json").schema(schema).load("file:///d/GoWorkPath/src/formatlog/jinli_qingdianshang/" + date_url)
-#df = spark.read.format("json").schema(schema).load("file:///home/xiaoayong/work/jinli_qingdianshang/" + date_url)
+#df = spark.read.format("json").schema(schema).load("file:///d/GoWorkPath/src/formatlog/jinli_qingdianshang/" + date_url)
+df = spark.read.format("json").schema(schema).load("file:///home/xiaoayong/work/jinli_qingdianshang/" + date_url)
 #df = spark.read.format("json").schema(schema).load("hdfs://nameservice1/songshu/track/jinli_qingdianshang/" + date_url)
 df.createOrReplaceTempView("jinlilog")
 

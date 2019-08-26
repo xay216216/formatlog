@@ -57,13 +57,15 @@ subprocess.call(cmd,shell=True)
 
 10 01 * * * bash /home/xiaoayong/work/script/everyday.sh  1>/home/xiaoayong/work/script/everyday.log 2>&1
 
-20 02 * * * /opt/spark-2.1.0/bin/spark-submit /home/xiaoayong/work/script/jinlione.py 1>/home/xiaoayong/work/script/jinlione.log 2>&1
+20 02 * * * /data/server/pinedd/spark-2.4.3/bin/spark-submit /home/xiaoayong/work/script/jinlione.py 1>/home/xiaoayong/work/script/jinlione.log 2>&1
 
-20 03 * * * /opt/spark-2.1.0/bin/spark-submit /home/xiaoayong/work/script/jinlithree.py 1>/home/xiaoayong/work/script/jinlithree.log 2>&1
+20 03 * * * /data/server/pinedd/spark-2.4.3/bin/spark-submit /home/xiaoayong/work/script/jinlithree.py 1>/home/xiaoayong/work/script/jinlithree.log 2>&1
 
-20 04 * * * /opt/spark-2.1.0/bin/spark-submit /home/xiaoayong/work/script/jinlifour.py 1>/home/xiaoayong/work/script/jinlifour.log 2>&1
+20 04 * * * /data/server/pinedd/spark-2.4.3/bin/spark-submit /home/xiaoayong/work/script/jinlifour.py 1>/home/xiaoayong/work/script/jinlifour.log 2>&1
 
 50 09 * * * bash /home/xiaoayong/work/script/sendemail.sh  1>/home/xiaoayong/work/script/sendemail.log 2>&1
+
+55 09 * * * bash /home/xiaoayong/work/script/sendemailtwo.sh  1>/home/xiaoayong/work/script/sendemailtwo.log 2>&1
 
 
 

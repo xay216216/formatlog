@@ -66,7 +66,7 @@ func newsBot() error {
 	//script.WriteXls()
 	//script.ReportOneTask()
 	//script.ReportTwoTask()
-	script.ReportThreeTask()
+	//script.ReportThreeTask()
 	//script.GetUidM1()
 	//script.InsertJsonDataOne()
 

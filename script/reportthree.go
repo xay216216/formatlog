@@ -1,6 +1,7 @@
 package script
 
 import (
+	"os"
 	"strconv"
 	_ "strconv"
 	"strings"
@@ -54,6 +55,8 @@ func ReportThreeTask() {
 	ReadCountLog(url)
 	reportThreeCount()
 	writeReportThreeXls()
+	log.Info("脚本执行完毕---ReportThreeTask")
+	os.Exit(2)
 }
 
 func reportThreeCount() {

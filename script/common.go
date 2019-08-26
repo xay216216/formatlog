@@ -96,6 +96,7 @@ func WriteLog(fileName, msg string) error {
 	_, err = io.WriteString(f, LineFeed+msg)
 
 	defer f.Close()
+	//f.WriteString("\xEF\xBB\xBF") // 写入UTF-8 BOM，防止中文乱码
 	return err
 }
 

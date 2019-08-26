@@ -5,6 +5,7 @@ import (
 	_ "encoding/json"
 	_ "fmt"
 	"formatlog/models"
+	"github.com/astaxie/beego"
 	"github.com/tidwall/gjson"
 	"io"
 	"io/ioutil"
@@ -14,14 +15,15 @@ import (
 
 // 执行脚本
 func InsertJinLiOne() {
-	log.Info("开始执行脚本---InsertJsonDataOne")
+	log.Info("开始执行脚本---InsertJinLiOne")
 	//获取数据
 	formatNow = now.AddDate(0, 0, -10)  //-65 对应220190608
 	dateUrl = formatNow.Format("20060102")
 	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	InsertMysqlJinLiOne(url)
-
+	beego.Info("脚本执行完毕---InsertJinLiOne")
+	os.Exit(2)
 }
 
 //insert mysql

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #收件箱
-EMAIL_RECIVER="843150233@qq.com"
+EMAIL_RECIVER="weiyuqin@baice100.com"
 #抄送
-EMAIL_CC="843150231@qq.com"
+EMAIL_CC="xiaoayong@baice100.com gaoyan@baice100.com xiaopeng9@baice100.com wuqian@baice100.com"
 #发送者邮箱
 EMAIL_SENDER=xiaoayong@baice100.com
 #邮箱用户名

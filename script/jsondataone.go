@@ -5,6 +5,7 @@ import (
 	_ "encoding/json"
 	_ "fmt"
 	"formatlog/models"
+	"github.com/astaxie/beego"
 	"github.com/tidwall/gjson"
 	"io"
 	"io/ioutil"
@@ -21,7 +22,8 @@ func InsertJsonDataOne() {
 	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	InsertMysql(url)
-
+	beego.Info("脚本执行完毕---InsertJsonDataOne")
+	os.Exit(2)
 }
 
 //insert mysql

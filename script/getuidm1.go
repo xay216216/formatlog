@@ -4,6 +4,7 @@ import (
 	"bufio"
 	_ "encoding/json"
 	_ "fmt"
+	"github.com/astaxie/beego"
 	"github.com/tidwall/gjson"
 	"io"
 	"io/ioutil"
@@ -35,13 +36,15 @@ var (
 
 // 执行脚本
 func GetUidM1() {
-	log.Info("开始执行脚本")
+	log.Info("开始执行脚本---GetUidM1")
 	//获取数据
 	url := logReadUrl + dateUrlA
 	log.Info("logUrl:", url)
 	logData = make(map[string]M1uid)
 	readDirectoryLog(url)
 	writeM1Pid()
+	beego.Info("脚本执行完毕---GetUidM1")
+	os.Exit(2)
 }
 
 //读取日志

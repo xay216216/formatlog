@@ -25,6 +25,8 @@ func WriteXls() {
 	url = logReadUrl + dateUrl
 	log.Info("logUrl:", url)
 	readLog(url)
+	log.Info("脚本执行完毕---WriteXls")
+	os.Exit(2)
 }
 
 //读取日志

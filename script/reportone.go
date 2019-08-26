@@ -1,6 +1,7 @@
 package script
 
 import (
+	"os"
 	"strconv"
 )
 
@@ -56,7 +57,7 @@ var (
 
 // 执行脚本
 func ReportOneTask() {
-	log.Info("开始执行脚本---CountLog")
+	log.Info("开始执行脚本---ReportOneTask")
 	//获取数据
 	formatNow     = now.AddDate(0, 0, -1)
 	dateUrl       = formatNow.Format("20060102")
@@ -65,6 +66,8 @@ func ReportOneTask() {
 	ReadCountLog(url)
 	reportOneCount()
 	writeReportOneXls()
+	log.Info("脚本执行完毕---ReportOneTask")
+	os.Exit(2)
 }
 
 func reportOneCount() {
