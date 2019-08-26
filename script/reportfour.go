@@ -57,7 +57,7 @@ func ReportFourTask() {
 	Loop:
 		for _, itemIid := range itemIidArray {
 			//根据mysql获取信息
-			categoryName,goodsInfo, err := ebeasy.GetInfoByItemIid(itemIid)
+			categoryName, goodsInfo, err := ebeasy.GetInfoByItemIid(itemIid)
 			beego.Info("itemIid:", itemIid)
 			if err != nil {
 				beego.Info("数据库操作错误:", err)
@@ -67,6 +67,7 @@ func ReportFourTask() {
 				continue Loop
 			}
 			for key, value := range goodsInfo {
+				reportDataFour = make(map[string]string)
 				reportDataFour["Goods_id"] = value.Goods_id
 				reportDataFour["Item_iid"] = value.Item_iid
 				reportDataFour["Name"] = value.Name
@@ -102,13 +103,7 @@ func ReportFourTask() {
 }
 
 func storePid() {
-	reportDataFour = make(map[string]string)
-	reportDataFourTwo = make(map[string]int)
 	YxllPv = make(map[string]string)
-	YxllPvM = make(map[string]string)
-	Pid = make(map[string]string)
-	PIdDjxqM = make(map[string]string)
-	PIdDstzM = make(map[string]string)
 	for _, value := range logDataOne {
 		if value.NM == "ZHUANQU_WHEN_SCAN_POINT" || value.NM == "FIRST_PAGE_WHEN_SCAN_POINT" || value.NM == "EVENT_HOME_PV" || value.NM == "EVENT_CATEGORY_LIST" || value.NM == "EVENT_ZHUANGQU_PV" {
 			itemidString := value.ITEMID
@@ -126,6 +121,11 @@ func storePid() {
 
 func reportFourCount(goodsId string) {
 
+	reportDataFourTwo = make(map[string]int) //map清空
+	YxllPvM = make(map[string]string)
+	Pid = make(map[string]string)
+	PIdDjxqM = make(map[string]string)
+	PIdDstzM = make(map[string]string)
 	for key, value := range logDataOne {
 		dataKey := value.PID + "_" + goodsId
 		//商品浏览数

@@ -44,13 +44,13 @@ func GetInfoByItemIid(itemIid string) (categoryName map[int]string, u []Goods_in
 	var category_info []Category_info
 	_, err = o.Raw("select goods_id,item_iid,name,eplatform,label_price,zk_price,origin_coupon_price,origin_commission_price,pay_price,discount,srcsite,list_img,front_cate_ids from eb_goods where eb_goods.item_iid=? ", itemIid).QueryRows(&goods_info)
 	if len(goods_info) > 0 {
-		beego.Info("va:", goods_info)
+		beego.Info("goods_info:", goods_info)
 		for key, value := range goods_info {
 			ids := value.Front_cate_ids
 			chrstr := strings.Split(ids, ",")
 			for _, va := range chrstr {
 				if len(va) > 0 {
-					fmt.Printf("v1 type:%T\n", va)
+					fmt.Printf("va type is:%T\n", va)
 					beego.Info("va:", va)
 					_, err = o.Raw("select cate_id,name from eb_category where eb_category.cate_id = ? ", va).QueryRows(&category_info)
 					if len(category_info) > 0 {
