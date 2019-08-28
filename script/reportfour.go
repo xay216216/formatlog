@@ -90,7 +90,7 @@ func ReportFourTask() {
 
 				//获取日志信息
 				reportFourCount(value.Goods_id)
-				beego.Info("goodsId:", value.Goods_id)
+				//beego.Info("goodsId:", value.Goods_id)
 				writeReportFourXls()
 			}
 		}
@@ -104,8 +104,9 @@ func ReportFourTask() {
 
 func storePid() {
 	YxllPv = make(map[string]string)
+	Pid = make(map[string]string)
 	for _, value := range logDataOne {
-		if value.NM == "ZHUANQU_WHEN_SCAN_POINT" || value.NM == "FIRST_PAGE_WHEN_SCAN_POINT" || value.NM == "EVENT_HOME_PV" || value.NM == "EVENT_CATEGORY_LIST" || value.NM == "EVENT_ZHUANGQU_PV" {
+		if value.NM == "ZHUANQU_WHEN_SCAN_POINT" || value.NM == "FIRST_PAGE_WHEN_SCAN_POINT" {
 			itemidString := value.ITEMID
 			chrstr := strings.Split(itemidString, ",")
 			if len(chrstr) != 0 {
@@ -113,8 +114,12 @@ func storePid() {
 					if len(va) != 0 {
 						YxllPv[value.PID+"_"+va] = value.PID + "_" + va
 					}
+					//log.Info("YxllPv::",value.PID + "_" + va)
 				}
 			}
+		}
+		if value.NM == "EVENT_HOME_PV" || value.NM == "EVENT_CATEGORY_LIST" || value.NM == "EVENT_ZHUANGQU_PV" {
+			Pid[value.PID] = value.PID
 		}
 	}
 }
@@ -123,7 +128,6 @@ func reportFourCount(goodsId string) {
 
 	reportDataFourTwo = make(map[string]int) //map清空
 	YxllPvM = make(map[string]string)
-	Pid = make(map[string]string)
 	PIdDjxqM = make(map[string]string)
 	PIdDstzM = make(map[string]string)
 	for key, value := range logDataOne {
@@ -132,30 +136,59 @@ func reportFourCount(goodsId string) {
 		if value.NM == "ZHUANQU_WHEN_SCAN_POINT" || value.NM == "FIRST_PAGE_WHEN_SCAN_POINT" {
 			_, ok := YxllPv[dataKey]
 			if ok {
-				reportDataFourTwo["YxllPv"] = reportDataFourTwo["YxllPv"] + 1
-				_, okt := YxllPvM[value.PID+"_"+goodsId+"_"+value.M1]
-				if !okt {
-					reportDataFourTwo["YxllUv"] = reportDataFourTwo["YxllUv"] + 1
+				itemidString1 := value.ITEMID
+				chrstr1 := strings.Split(itemidString1, ",")
+				if len(chrstr1) != 0 {
+					for _, va := range chrstr1 {
+						if va == goodsId {
+							reportDataFourTwo["YxllPv"] = reportDataFourTwo["YxllPv"] + 1
+							_, okt := YxllPvM[value.PID+"_"+goodsId+"_"+value.M1]
+							if !okt {
+								reportDataFourTwo["YxllUv"] = reportDataFourTwo["YxllUv"] + 1
+							}
+							YxllPvM[value.PID+"_"+goodsId+"_"+value.M1] = value.PID + "_" + goodsId + "_" + value.M1
+						}
+					}
 				}
-				YxllPvM[value.PID+"_"+goodsId+"_"+value.M1] = value.PID + "_" + goodsId + "_" + value.M1
 			}
 		}
-		if value.NM == "EVENT_HOME_PV" || value.NM == "EVENT_CATEGORY_LIST" || value.NM == "EVENT_ZHUANGQU_PV" {
+		/*if value.NM == "EVENT_HOME_PV" || value.NM == "EVENT_CATEGORY_LIST" || value.NM == "EVENT_ZHUANGQU_PV" {
 			_, ok := YxllPv[dataKey]
 			if ok {
-				Pid[value.PID] = value.PID
+				itemidString2 := value.ITEMID
+				chrstr2 := strings.Split(itemidString2, ",")
+				log.Info("itemidString::",itemidString2)
+				if len(chrstr2) != 0 {
+					for _, va := range chrstr2 {
+						log.Info("goodsId::",goodsId)
+						log.Info("va::",va)
+						if va == goodsId {
+							log.Info("1111::",va)
+							Pid[value.PID] = value.PID
+							log.Info("Pid::",value.PID + "_" + va+ "_" + goodsId)
+						}
+					}
+				}
 			}
-		}
+		}*/
 		//点击详情
 		if value.NM == "EVENT_GOODS_DETAIL_PV" {
 			_, ok := Pid[value.PID]
 			if ok {
-				reportDataFourTwo["DjxqPv"] = reportDataFourTwo["DjxqPv"] + 1
-				_, okTwo := PIdDjxqM[value.M1]
-				if !okTwo {
-					reportDataFourTwo["DjxqUv"] = reportDataFourTwo["DjxqUv"] + 1
+				itemidString3 := value.ITEMID
+				chrstr3 := strings.Split(itemidString3, ",")
+				if len(chrstr3) != 0 {
+					for _, va := range chrstr3 {
+						if va == goodsId {
+							reportDataFourTwo["DjxqPv"] = reportDataFourTwo["DjxqPv"] + 1
+							_, okTwo := PIdDjxqM[value.M1]
+							if !okTwo {
+								reportDataFourTwo["DjxqUv"] = reportDataFourTwo["DjxqUv"] + 1
+							}
+							PIdDjxqM[value.M1] = value.NM + "_" + value.M1
+						}
+					}
 				}
-				PIdDjxqM[value.M1] = value.NM + "_" + value.M1
 			}
 		}
 
@@ -163,12 +196,20 @@ func reportFourCount(goodsId string) {
 		if value.NM == "EVENT_JUMP_GET_COUPON" {
 			_, ok := Pid[value.PID]
 			if ok {
-				reportDataFourTwo["DstzPv"] = reportDataFourTwo["DstzPv"] + 1
-				_, okTwo := PIdDstzM[value.M1]
-				if !okTwo {
-					reportDataFourTwo["DstzUv"] = reportDataFourTwo["DstzUv"] + 1
+				itemidString3 := value.ITEMID
+				chrstr3 := strings.Split(itemidString3, ",")
+				if len(chrstr3) != 0 {
+					for _, va := range chrstr3 {
+						if va == goodsId {
+							reportDataFourTwo["DstzPv"] = reportDataFourTwo["DstzPv"] + 1
+							_, okTwo := PIdDstzM[value.M1]
+							if !okTwo {
+								reportDataFourTwo["DstzUv"] = reportDataFourTwo["DstzUv"] + 1
+							}
+							PIdDstzM[value.M1] = value.NM + "_" + value.M1
+						}
+					}
 				}
-				PIdDstzM[value.M1] = value.NM + "_" + value.M1
 			}
 		}
 
@@ -176,7 +217,15 @@ func reportFourCount(goodsId string) {
 		if value.NM == "EVENT_USER_ORDER" {
 			_, ok := Pid[value.PID]
 			if ok {
-				reportDataFourTwo["DsOrderNum"] = reportDataFourTwo["DsOrderNum"] + 1
+				itemidString3 := value.ITEMID
+				chrstr3 := strings.Split(itemidString3, ",")
+				if len(chrstr3) != 0 {
+					for _, va := range chrstr3 {
+						if va == goodsId {
+							reportDataFourTwo["DsOrderNum"] = reportDataFourTwo["DsOrderNum"] + 1
+						}
+					}
+				}
 			}
 		}
 		_ = key
@@ -185,7 +234,6 @@ func reportFourCount(goodsId string) {
 
 func writeReportFourXls() {
 
-	countContent = dateUrlFour + "\t" + reportDataFour["Goods_id"] + "\t" + reportDataFour["Item_iid"] + "\t " + "无" + "\t" + reportDataFour["Name"] + "\t" + reportDataFour["Back_cate_ids"] + "\t" + reportDataFour["Zk_price"] + "\t " + reportDataFour["Discount"] + "\t " + reportDataFour["Origin_coupon_price"] + "\t " + reportDataFour["Fan_li_price"] + "\t" + reportDataFour["Eplatform"] + "\t" + reportDataFour["List_img"] + "\t" + reportDataFour["Ht_biaoqian"] + "\t" + strconv.Itoa(reportDataFourTwo["YxllPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["YxllUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DjxqPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DjxqUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DstzPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DstzUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DsOrderNum"])
+	countContent = dateUrlFour + "\t" + reportDataFour["Goods_id"] + "\t" + reportDataFour["Item_iid"] + ",\t " + "无" + "\t" + reportDataFour["Name"] + "\t" + reportDataFour["Back_cate_ids"] + "\t" + reportDataFour["Zk_price"] + "\t " + reportDataFour["Discount"] + "\t " + reportDataFour["Origin_coupon_price"] + "\t " + reportDataFour["Fan_li_price"] + "\t" + reportDataFour["Eplatform"] + "\t" + reportDataFour["List_img"] + "\t" + reportDataFour["Ht_biaoqian"] + "\t" + strconv.Itoa(reportDataFourTwo["YxllPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["YxllUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DjxqPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DjxqUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DstzPv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DstzUv"]) + "\t" + strconv.Itoa(reportDataFourTwo["DsOrderNum"])
 	WriteLog(reportFour, countContent)
-
 }

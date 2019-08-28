@@ -189,6 +189,7 @@ Loop:
 				//写入map
 				//mapString := m1 + "_" + tm + "_" + nm
 				mapString := m1 + "_" + tm + "_" + nm + "_" + from + "_" + strconv.Itoa(lineNum) + "_" + strconv.Itoa(fileNum)
+				//log.Info(mapString)
 				logDataOne[mapString] = JsonFormatOne{ba, ip, m1, mo, nm, p, appv, categoryId, clickType, eplatform, from, ips, itemid, itemId, orderid, kw, uid, match, pid, position, name, qd, tm, v}
 
 			}

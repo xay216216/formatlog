@@ -58,7 +58,10 @@ subprocess.call(cmd,shell=True)
 55 09 * * * bash /home/xiaoayong/work/script/sendemailtwo.sh  1>/home/xiaoayong/work/script/sendemailtwo.log 2>&1
 
 
-/data/server/pinedd/spark-2.4.3/bin/spark-submit /home/xiaoayong/work/script/tmp.py
+/data/server/pinedd/spark-2.4.3/bin/spark-submit /home/xiaoayong/work/script/tmp.py --keytab /etc/krb5.keytab --principal  ecom_public@DAKAQUAN.COM
+
+
+/data/server/pinedd/spark-2.4.3/bin/spark-submit --keytab /etc/krb5.keytab --principal  ecom_public@DAKAQUAN.COM /home/xiaoayong/work/script/tmp.py 
 
 * * * * * bash /home/xiaopeng9/t.sh 1>/tmp/xxxx.log 2>&1
 
